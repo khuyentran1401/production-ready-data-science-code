@@ -1,7 +1,8 @@
 """Helper utility functions."""
 
-import pandas as pd
 from datetime import datetime
+
+import pandas as pd
 
 
 def format_results(accuracy: float, feature_importance: pd.Series) -> str:
@@ -15,16 +16,16 @@ def format_results(accuracy: float, feature_importance: pd.Series) -> str:
         Formatted results string
     """
     results = [
-        f"Model Performance Summary",
-        f"=" * 25,
+        "Model Performance Summary",
+        "=" * 25,
         f"Accuracy: {accuracy:.3f}",
-        f"",
-        f"Feature Importance:",
+        "",
+        "Feature Importance:",
     ]
-    
+
     for feature, importance in feature_importance.sort_values(ascending=False).items():
         results.append(f"  {feature}: {importance:.3f}")
-    
+
     return "\n".join(results)
 
 

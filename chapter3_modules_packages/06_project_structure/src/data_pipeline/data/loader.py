@@ -1,7 +1,9 @@
 """Data loading functions."""
 
-import pandas as pd
 from pathlib import Path
+
+import pandas as pd
+
 from ..config import RAW_DATA_DIR
 
 
@@ -15,18 +17,18 @@ def load_data(filename: str) -> pd.DataFrame:
         DataFrame containing the loaded data
     """
     filepath = RAW_DATA_DIR / filename
-    
+
     if not filepath.exists():
         # Create sample data if file doesn't exist
         sample_data = pd.DataFrame({
             "feature1": [1, 2, 3, 4, 5],
-            "feature2": [2, 4, 6, 8, 10], 
+            "feature2": [2, 4, 6, 8, 10],
             "target": [0, 1, 0, 1, 0]
         })
         filepath.parent.mkdir(parents=True, exist_ok=True)
         sample_data.to_csv(filepath, index=False)
         print(f"Created sample data at {filepath}")
-    
+
     data = pd.read_csv(filepath)
     print(f"Loaded {len(data)} rows from {filename}")
     return data

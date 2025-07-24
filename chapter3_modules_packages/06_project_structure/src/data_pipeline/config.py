@@ -1,6 +1,5 @@
 """Configuration management for the data pipeline."""
 
-import os
 from pathlib import Path
 
 # Project root directory
