@@ -53,6 +53,7 @@ Each example directory contains complete, functional code that you can run and m
 **Standardized project structure template**
 - Example of well-organized data science project structure
 - Includes proper directory organization and configuration files
+- **Run:** `cd 06_project_structure && uv sync && uv run scripts/run_pipeline.py`
 
 ## Getting Started
 

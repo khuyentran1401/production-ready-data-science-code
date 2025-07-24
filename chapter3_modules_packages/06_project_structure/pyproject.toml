@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "data-pipeline"
+version = "0.1.0"
+description = "A sample data science project structure"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas>=1.3.0",
+    "numpy>=1.21.0",
+    "scikit-learn>=1.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=6.0.0",
+    "pytest-cov>=2.12.0",
+    "ruff>=0.1.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[tool.ruff]
+src = ["src"]
+line-length = 88
+target-version = "py38"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = []
