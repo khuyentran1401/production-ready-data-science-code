@@ -1,0 +1,7 @@
+strategy: impute
+impute_method: mean
+cols_to_impute:
+  - free sulfur dioxide
+  - fixed acidity
+feature: quality
+test_size: 0.2
