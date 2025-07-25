@@ -1,0 +1,7 @@
+defaults:
+  - process: drop_missing
+  - _self_
+
+data:
+  raw: data/raw/winequality-red.csv
+  intermediate: data/intermediate

@@ -48,13 +48,3 @@ Demonstrates importing and using items from the utils module:
 ✅ **Shared configuration** - The `config` dictionary can be used across multiple modules
 
 ✅ **Code reusability** - The `save_to_csv` function can be used anywhere we need to save data
-
-## Try It Yourself
-
-1. **Modify the config:** Change the `data_path` in `utils.py` and see how it affects the output
-
-2. **Add a new function:** Add a `load_from_csv()` function to `utils.py` and use it in `process_data.py`
-
-3. **Create more data:** Modify `process_data.py` to create and save different datasets
-
-4. **Add more configuration:** Extend the `config` dictionary with additional settings like file formats or column names
