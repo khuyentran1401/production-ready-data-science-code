@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "pandas>=2.2.3",
+    "quarto>=0.1.0",
 ]
 
 [tool.ruff]
