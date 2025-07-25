@@ -1,0 +1,33 @@
+name: Create documentation
+on:
+  pull_request:
+    paths:
+      - src/**
+
+jobs:
+  create_documentation:
+    name: Create documentation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@v2
+
+      - name: Environment setup
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pdoc3
+
+      - name: Create documentation
+        run: pdoc --html src -o docs --force
+
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: documentation
+          path: docs

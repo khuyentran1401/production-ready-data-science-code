@@ -1,0 +1,32 @@
+name: Report Generation Workflow
+
+on:
+  push:
+    paths:
+      - analysis/*.py
+
+jobs:
+  generate_report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@v2
+
+      - name: Environment setup
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate Report
+        run: python analysis/generate_report.py
+
+      - name: Upload Report
+        uses: actions/upload-artifact@v2
+        with:
+          name: generated-report
+          path: analysis/report.pdf
