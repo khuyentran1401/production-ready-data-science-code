@@ -1,0 +1,64 @@
+schema_type: dataframe
+version: 0.25.0
+columns:
+  customer_id:
+    title: null
+    description: null
+    dtype: int64
+    nullable: false
+    checks:
+    - value: 1
+      options:
+        check_name: greater_than_or_equal_to
+        raise_warning: false
+        ignore_na: true
+    unique: true
+    coerce: false
+    required: true
+    regex: false
+  age:
+    title: null
+    description: null
+    dtype: int64
+    nullable: false
+    checks:
+    - min_value: 0
+      max_value: 120
+      include_min: true
+      include_max: true
+      options:
+        check_name: in_range
+        raise_warning: false
+        ignore_na: true
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+  transaction_amount:
+    title: null
+    description: null
+    dtype: float64
+    nullable: false
+    checks:
+    - value: 0
+      options:
+        check_name: greater_than_or_equal_to
+        raise_warning: false
+        ignore_na: true
+    unique: false
+    coerce: false
+    required: true
+    regex: false
+checks: null
+index: null
+dtype: null
+coerce: false
+strict: false
+name: null
+ordered: false
+unique: null
+report_duplicates: all
+unique_column_names: false
+add_missing_columns: false
+title: null
+description: null

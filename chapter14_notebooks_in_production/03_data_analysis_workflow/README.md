@@ -1,42 +1,34 @@
 # Data Analysis Workflow
 
-This example demonstrates a complete data analysis workflow using marimo.
+Complete data analysis workflow using marimo with visualization and insights.
 
 ## Files
-- `data_analysis.py`: Complete data analysis notebook with visualization and insights
 
-## Key Features Demonstrated
-- Multi-cell data science workflow
-- Library imports and data generation
-- Data exploration and visualization  
-- Statistical analysis and business insights
-- Clean dependency chain throughout the analysis
+- `data_analysis.py` - Complete data analysis notebook with visualization and insights
 
-## Running the Analysis
+## Key Points
+
+- Multi-cell data science workflow with clean dependency chain
+- Interactive visualizations that update automatically when data changes
+
+## How to Run
 
 ```bash
 # Run the notebook
 uv run --group chapter14 marimo edit data_analysis.py
 ```
 
-## Workflow Steps
+## Expected Output
 
-1. **Setup**: Import libraries (pandas, numpy, matplotlib)
-2. **Data Creation**: Generate sample sales and marketing data
-3. **Exploration**: Display dataset info and summary statistics
-4. **Visualization**: Create scatter plots and histograms  
-5. **Analysis**: Calculate correlations and derive business insights
+Notebook displays a complete analysis workflow: data generation → exploration → visualization → statistical analysis → business insights.
 
-## Interactive Features
+## Try This
 
-- **Modify Parameters**: Change the random seed or data generation parameters
-- **See Propagation**: Watch how changes automatically flow through the analysis
-- **Update Visualizations**: Plots automatically refresh when data changes
-- **Real-time Insights**: Business conclusions update based on new correlations
+1. **Modify parameters**: Change the random seed or data generation parameters
+2. **Watch propagation**: See how changes automatically flow through the entire analysis
+3. **Update visualizations**: Notice plots automatically refresh when data changes
+4. **Test interactivity**: Modify parameters and see immediate results throughout the pipeline
 
-## Benefits Over Traditional Notebooks
+## Learn More
 
-- **Reproducible**: Always runs in the same order
-- **Version Controllable**: Clean Python script format
-- **Dependency Safe**: No hidden state or out-of-order execution
-- **Interactive**: Modify parameters and see immediate results throughout the pipeline
+← [Back to Chapter 14](../README.md) for more notebook patterns and the complete guide.

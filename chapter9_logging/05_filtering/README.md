@@ -1,20 +1,27 @@
 # Log Filtering
 
-This example demonstrates filtering log messages using lambda functions.
+Filter log messages using lambda functions for selective logging.
 
 ## Files
-- `filtering_example.py`: Filters messages containing "Hello"
-- `hello.log`: Generated file containing only filtered messages
 
-## Running the Example
+- `filtering_example.py` - Filters messages containing "Hello"
+- `hello.log` - Generated file with only filtered messages
+
+## Key Points
+
+- Use lambda functions to filter messages by content
+- Apply different filters to different output destinations
+
+## How to Run
 
 ```bash
 uv run --group chapter9 python filtering_example.py
 ```
 
-Check the generated `hello.log` file - it will only contain messages with "Hello" in them.
+## Expected Output
 
-## Key Features Demonstrated
-- Lambda function filters (`filter=lambda record: "Hello" in record["message"]`)
-- Selective logging to file based on message content
-- Simple filtering without complex filter classes
+Only messages containing "Hello" will be saved to `hello.log`, while all messages appear in terminal.
+
+## Learn More
+
+← [Back to Chapter 9](../README.md) for more logging patterns and the complete guide.

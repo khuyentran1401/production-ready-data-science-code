@@ -1,0 +1,49 @@
+# Staging environment configuration
+# Uses S3 storage and medium-scale processing
+
+data_source: s3
+bucket: staging-ml-bucket
+file_path: datasets/winequality-red.csv
+logging_level: INFO
+
+database:
+  type: postgresql
+  host: staging-db.internal
+  port: 5432
+  database: ml_staging
+  connection_pool_size: 10
+  timeout: 60
+
+processing:
+  batch_size: 500
+  parallel_workers: 4
+  cache_enabled: true
+  debug_mode: false
+
+model:
+  save_path: s3://staging-ml-bucket/models/staging_model.pkl
+  checkpoint_frequency: 50
+  validation_split: 0.2
+
+api:
+  base_url: https://staging-api.company.com
+  timeout: 60
+  retry_attempts: 5
+
+features:
+  - fixed acidity
+  - volatile acidity
+  - citric acid
+  - residual sugar
+  - chlorides
+  - total sulfur dioxide
+  - density
+  - pH
+  - sulphates
+  - alcohol
+
+target_column: quality
+
+monitoring:
+  enabled: true
+  metrics_endpoint: https://staging-metrics.company.com

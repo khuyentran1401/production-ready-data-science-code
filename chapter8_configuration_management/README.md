@@ -1,65 +1,49 @@
-# Chapter 8: Configuration Management Examples
+# Chapter 8: Configuration Management
 
-This directory contains examples for configuration management using Hydra as demonstrated in Chapter 8 of the book.
+Configuration management with Hydra for flexible parameter handling.
 
-## Examples Overview
+These examples are from [Production-Ready Data Science](https://codecut.ai/production-ready-data-science/?utm_source=github&utm_medium=production-ready-data-science-code&utm_campaign=chapter8) by Khuyen Tran.
 
-### 1. Basic Hydra Configuration (`01_basic_hydra_config/`)
-- Introduction to Hydra's `@hydra.main` decorator
-- Basic configuration file structure
-- Command-line parameter overrides
-- Multi-run execution
+← [Back to Main README](../README.md)
 
-### 2. Interpolation (`02_interpolation/`)
-- Using `${...}` syntax to reference other config values
-- Reducing configuration duplication
-- Dynamic path generation
+## Setup
 
-### 3. Config Groups (`03_config_groups/`)
-- Organizing related configurations into groups
-- Using `defaults` section
-- Switching between configuration variants
-
-## Prerequisites
-
-Install dependencies using:
 ```bash
+# From project root
 uv sync --group chapter8
 ```
 
-## Key Concepts Covered
+## Examples
 
-1. **Configuration Management Benefits**:
-   - Separate configuration from code
-   - Enable flexible experimentation
-   - Keep code clean and focused
+### [01_basic_hydra_config/](01_basic_hydra_config/) - Basic Hydra setup
+```bash
+cd 01_basic_hydra_config && uv run python process.py
+```
 
-2. **Hydra Features**:
-   - Intuitive parameter access via dot notation
-   - Command-line configuration overrides
-   - Multi-run execution for testing multiple configurations
-   - Configuration interpolation to reduce duplication
-   - Logical grouping of related configurations
+### [02_interpolation/](02_interpolation/) - Config value interpolation
+```bash
+cd 02_interpolation && uv run python interpolation_demo.py
+```
 
-3. **Best Practices**:
-   - Use hierarchical structure in configuration files
-   - Never include sensitive data in configuration files
-   - Organize configurations into logical groups
+### [03_config_groups/](03_config_groups/) - Organized config groups
+```bash
+cd 03_config_groups && uv run python config_groups_demo.py
+```
 
-## Running All Examples
+### [04_environment_configs/](04_environment_configs/) - Environment-specific configurations
+```bash
+cd 04_environment_configs && uv run --group chapter8 python environment_demo.py
+# Or with Hydra integration:
+cd 04_environment_configs && uv run --group chapter8 python hydra_environment_demo.py
+```
 
-Each subdirectory contains its own README with specific instructions. Generally:
+## Quick Start
 
 ```bash
-# Navigate to any example directory
-cd 01_basic_hydra_config/
-
-# Run with default config
-uv run --group chapter8 python <script_name>.py
-
-# Override parameters
-uv run --group chapter8 python <script_name>.py param.key=value
-
-# View help
-uv run --group chapter8 python <script_name>.py --help
+cd 01_basic_hydra_config
+uv run python process.py
 ```
+
+---
+
+Each example is self-contained and ready to run.

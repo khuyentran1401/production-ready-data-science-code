@@ -1,0 +1,8 @@
+project:
+  name: new_project
+  version: v1
+paths:
+  base: data/${project.name}/${project.version}
+  raw: ${paths.base}/raw
+  processed: ${paths.base}/processed
+  reports: ${paths.base}/reports

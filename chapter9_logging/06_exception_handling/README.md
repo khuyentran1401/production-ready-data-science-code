@@ -1,18 +1,26 @@
 # Exception Handling and Tracing
 
-This example demonstrates Loguru's improved exception logging capabilities.
+Get detailed exception logging with full stack traces and variable states.
 
 ## Files
-- `exception_logging.py`: Exception handling with detailed tracebacks
 
-## Running the Example
+- `exception_logging.py` - Exception handling with detailed tracebacks
+
+## Key Points
+
+- Use `logger.exception()` for detailed exception logging
+- Apply `@logger.catch` decorator for automatic exception catching
+
+## How to Run
 
 ```bash
 uv run --group chapter9 python exception_logging.py
 ```
 
-## Key Features Demonstrated
-- `logger.exception()` for detailed exception logging
-- `@logger.catch` decorator for automatic exception catching
-- Full stack trace with local variable states
-- Enhanced debugging information compared to standard logging
+## Expected Output
+
+You'll see detailed stack traces with local variable values for enhanced debugging.
+
+## Learn More
+
+← [Back to Chapter 9](../README.md) for more logging patterns and the complete guide.

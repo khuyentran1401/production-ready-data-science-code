@@ -10,6 +10,7 @@ dependencies = [
     "scikit-learn>=1.7.1",
     "numpy>=1.24.0",
     "matplotlib>=3.7.0",
+    "pdoc3>=0.11.6",
 ]
 
 [dependency-groups]
@@ -44,7 +45,7 @@ chapter6 = [
     "pydantic>=2.0.0",
 ]
 chapter10 = [
-    "pandera>=0.17.0",
+    "pandera[io]>=0.17.0",
 ]
 chapter14 = [
     "jupyter>=1.0.0",

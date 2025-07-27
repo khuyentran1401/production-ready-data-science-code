@@ -1,63 +1,40 @@
-# Modular Design: Monolithic vs Modular Approach
+# Modular Design
 
-This example demonstrates the difference between **monolithic** and **modular** code design approaches, showing why breaking down large files into smaller, focused modules improves code maintainability.
+Compare monolithic vs modular code approaches to see why breaking large files into focused modules improves maintainability.
 
-## The Problem: Monolithic Code
+## Files
 
-Large files with multiple responsibilities become difficult to:
-- Navigate and understand
-- Test individual components  
-- Maintain and modify safely
-- Reuse in other projects
-- Collaborate on with team members
+- `monolithic/main.py` - All functionality in one file (70+ lines)
+- `modular/` - Same functionality split across focused modules
+  - `process.py` - Data loading and preprocessing
+  - `train_model.py` - Model training and evaluation
+  - `main.py` - Workflow coordination
 
-## The Solution: Modular Design
+## Key Points
 
-Breaking code into focused modules provides:
-- **Clear separation of concerns**
-- **Improved code organization**
-- **Better testability and maintainability**
-- **Enhanced reusability**
-- **Easier team collaboration**
+- Focused modules make code easier to navigate and test
+- Modular design improves reusability and team collaboration
 
-## Examples in This Directory
+## How to Run
 
-### 📁 [monolithic/](monolithic/)
-**Single file containing all functionality**
-- All functions in one `main.py` file
-- Mixed responsibilities (data processing, model training, evaluation)
-- Demonstrates problems with monolithic approach
-
-**Run it:**
 ```bash
-cd monolithic
-uv run main.py
+# Monolithic approach
+cd monolithic && uv run main.py
+
+# Modular approach  
+cd modular && uv run main.py
 ```
 
-### 📁 [modular/](modular/)
-**Same functionality split across focused modules**
-- `process.py` - Data loading and preprocessing
-- `train_model.py` - Model training and evaluation  
-- `main.py` - Workflow coordination
-- Demonstrates benefits of modular design
+## Expected Output
 
-**Run it:**
-```bash
-cd modular
-uv run main.py
-```
+Both approaches produce the same results, but modular is easier to maintain.
 
-## Key Learning Points
+## Try This
 
-### Before (Monolithic)
-❌ **70+ lines in single file** - Hard to navigate
-❌ **Mixed responsibilities** - Data processing, training, evaluation all together
-❌ **Difficult to test** - Can't easily test individual components
-❌ **Poor reusability** - Functions tied to specific file context
+1. **Compare file sizes**: Notice how modular breaks down complexity
+2. **Test individual modules**: Import functions from modular version
+3. **Add new features**: See which approach is easier to extend
 
-### After (Modular)
-✅ **Focused modules** - Each file has clear, single responsibility
-✅ **Easy navigation** - Find data processing in `process.py`, training in `train_model.py`
-✅ **Better testing** - Test each module independently
-✅ **High reusability** - Import functions in other projects
-✅ **Team friendly** - Multiple developers can work on different modules
+## Learn More
+
+← [Back to Chapter 3](../README.md) for more modules and packages patterns and the complete guide.

@@ -1,18 +1,26 @@
 # Colorized Logging
 
-This example demonstrates custom color formatting in Loguru.
+Create custom color schemes for enhanced log readability and visual organization.
 
 ## Files
-- `colorized_logging.py`: Custom color scheme for different log components
 
-## Running the Example
+- `colorized_logging.py` - Custom color scheme for different log components
+
+## Key Points
+
+- Use custom color tags (`<green>`, `<level>`, `<cyan>`) in format strings
+- Enable `colorize=True` for automatic level-based coloring
+
+## How to Run
 
 ```bash
 uv run --group chapter9 python colorized_logging.py
 ```
 
-## Key Features Demonstrated
-- `colorize=True` to enable color formatting
-- Custom color tags (`<green>`, `<level>`, `<cyan>`)
-- `{level.color}` token for automatic level-based coloring
-- Enhanced readability with color-coded timestamps and messages
+## Expected Output
+
+You'll see color-coded timestamps, log levels, and messages for improved readability.
+
+## Learn More
+
+← [Back to Chapter 9](../README.md) for more logging patterns and the complete guide.

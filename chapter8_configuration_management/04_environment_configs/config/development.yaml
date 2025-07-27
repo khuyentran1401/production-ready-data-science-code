@@ -1,0 +1,41 @@
+# Development environment configuration
+# Uses local files and provides detailed debugging
+
+data_source: csv
+file_path: data/raw/winequality-red.csv
+logging_level: DEBUG
+
+database:
+  type: sqlite
+  path: data/dev_database.db
+  timeout: 30
+
+processing:
+  batch_size: 100
+  parallel_workers: 1
+  cache_enabled: true
+  debug_mode: true
+
+model:
+  save_path: models/dev_model.pkl
+  checkpoint_frequency: 10
+  validation_split: 0.3
+
+api:
+  base_url: http://localhost:8000
+  timeout: 30
+  retry_attempts: 3
+
+features:
+  - fixed acidity
+  - volatile acidity
+  - citric acid
+  - residual sugar
+  - chlorides
+  - total sulfur dioxide
+  - density
+  - pH
+  - sulphates
+  - alcohol
+
+target_column: quality

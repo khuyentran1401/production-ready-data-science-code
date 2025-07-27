@@ -1,13 +1,6 @@
 # Basic Testing with pytest
 
-This example demonstrates the fundamentals of unit testing with pytest, comparing the benefits of structured testing vs simple print statements.
-
-## What This Example Shows
-
-- **pytest basics**: Writing test functions, assertions, and test discovery
-- **Test structure**: Organizing tests with descriptive names
-- **Comparison**: Benefits of testing over print statements for debugging
-- **Practical example**: Testing sentiment analysis functions
+Write your first pytest tests and see why structured testing beats print statements for debugging.
 
 ## Files
 
@@ -15,12 +8,10 @@ This example demonstrates the fundamentals of unit testing with pytest, comparin
 - `test_sentiment_analyzer.py` - pytest test functions
 - `test_with_print.py` - Shows problems with print-based testing
 
-## Key Learning Points
+## Key Points
 
-1. **Test Discovery**: pytest automatically finds files starting with `test_` and functions starting with `test_`
-2. **Assertions**: Use `assert` statements to verify expected behavior
-3. **Test Isolation**: Each test function runs independently
-4. **Clear Feedback**: pytest provides detailed failure information
+- pytest automatically finds test files and functions
+- Use `assert` statements to verify expected behavior
 
 ## How to Run
 
@@ -52,9 +43,6 @@ test_sentiment_analyzer.py::test_extract_sentiment_neutral PASSED
 3. **Break the code**: Introduce a bug in `sentiment_analyzer.py` to see how tests catch it
 4. **Compare approaches**: Run `test_with_print.py` to see why structured testing is better
 
-## Key Concepts from Chapter 7
+## Learn More
 
-- Tests provide **automated verification** that code works as intended
-- Tests help **identify edge cases** that manual testing might miss
-- Tests enable **safe refactoring** by catching regressions
-- Tests serve as **living documentation** showing how functions should behave
+← [Back to Chapter 7](../README.md) for more testing patterns and the complete testing guide.

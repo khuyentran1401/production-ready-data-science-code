@@ -1,14 +1,20 @@
 # Hydra Config Groups
 
-This example demonstrates organizing related configurations into logical groups.
+Organize related configurations into swappable groups for easy strategy switching.
 
 ## Files
-- `config/main.yaml`: Main config file with defaults
-- `config/process/drop_missing.yaml`: Processing strategy that drops missing values
-- `config/process/impute.yaml`: Processing strategy that imputes missing values
-- `config_groups_demo.py`: Python script that uses config groups
 
-## Running the Example
+- `config/main.yaml` - Main config file with defaults
+- `config/process/drop_missing.yaml` - Strategy that drops missing values
+- `config/process/impute.yaml` - Strategy that imputes missing values
+- `config_groups_demo.py` - Script using config groups
+
+## Key Points
+
+- Organize configs in subdirectories (`process/`)
+- Switch strategies easily via command line
+
+## How to Run
 
 ```bash
 # Run with default processing strategy (drop_missing)
@@ -21,8 +27,15 @@ uv run --group chapter8 python config_groups_demo.py process=impute
 uv run --group chapter8 python config_groups_demo.py --multirun process=drop_missing,impute
 ```
 
-## Key Features Demonstrated
-- `defaults` section in main config
-- Config groups organized in subdirectories (`process/`)
-- Easy switching between strategies via command line
-- Mix and match different configuration groups
+## Expected Output
+
+The script will show how different processing strategies handle missing data.
+
+## Try This
+
+1. **Add a new strategy**: Create `config/process/fill_zero.yaml` and test it
+2. **Mix groups**: Try combining different configuration groups in multirun mode
+
+## Learn More
+
+← [Back to Chapter 8](../README.md) for more configuration patterns and the complete guide.

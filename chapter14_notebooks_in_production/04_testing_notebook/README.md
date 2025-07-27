@@ -1,47 +1,37 @@
-# Testing marimo Notebooks  
+# Testing marimo Notebooks
 
-This example demonstrates how marimo notebooks can be tested with pytest, as shown in Chapter 14.
+How marimo notebooks can be tested with pytest like regular Python modules.
 
 ## Files
-- `test_example.py`: marimo notebook with testable functions
 
-## Key Features Demonstrated
-- Functions defined within notebook cells
-- Test functions that can be run with pytest
-- Inline test execution within the notebook
-- Standard Python testing workflow
+- `test_example.py` - marimo notebook with testable functions
 
-## Running the Example
+## Key Points
 
-### Interactive Notebook
+- marimo notebooks are plain Python scripts that can be tested with pytest
+- Functions defined in cells can be tested independently
+
+## How to Run
+
 ```bash
 # Run the notebook interactively
 uv run --group chapter14 marimo edit test_example.py
-```
 
-### Command Line Testing
-```bash
-# Run tests with pytest (as shown in the book)
+# Run tests with pytest
 uv run --group chapter14 pytest test_example.py
 ```
 
-## What Makes This Possible
+## Expected Output
 
-Unlike traditional Jupyter notebooks, marimo notebooks are:
-- **Plain Python Scripts**: Can be imported and tested like any Python module
-- **Function-Based**: Each cell is a function that can be tested independently  
-- **No Hidden State**: Tests run predictably without notebook-specific quirks
+Pytest runs tests defined in the notebook cells, providing standard test output and CI/CD compatibility.
 
-## Testing Workflow
+## Try This
 
-1. **Define Functions**: Create testable functions in notebook cells
-2. **Write Tests**: Add test functions following pytest conventions
-3. **Inline Verification**: Run tests within the notebook for immediate feedback
-4. **CI Integration**: Use `pytest test_example.py` in CI pipelines
+1. **Interactive testing**: Run the notebook and see tests execute inline
+2. **Command line testing**: Use `pytest test_example.py` to run tests from terminal
+3. **Add new tests**: Create additional test functions following pytest conventions
+4. **Break functions**: Modify functions to see how tests catch issues
 
-## Benefits for Production
+## Learn More
 
-- **CI/CD Compatible**: Standard pytest commands work seamlessly
-- **Code Quality**: Functions can be tested just like regular Python code
-- **Reproducible**: Tests run the same way in notebook and CI environments
-- **No Special Tools**: Uses standard Python testing ecosystem
+← [Back to Chapter 14](../README.md) for more notebook patterns and the complete guide.

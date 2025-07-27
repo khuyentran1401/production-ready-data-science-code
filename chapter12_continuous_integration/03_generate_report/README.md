@@ -1,35 +1,35 @@
 # Generate Report Workflow
 
-This example demonstrates automatic report generation when changes are made to analysis scripts.
+Automatic report generation when changes are made to analysis scripts.
 
 ## Files
-- `.github/workflows/generate_report.yaml`: GitHub Actions workflow
-- `analysis/generate_report.py`: Python script that generates reports
-- `requirements.txt`: Project dependencies
 
-## How It Works
+- `.github/workflows/generate_report.yaml` - GitHub Actions workflow
+- `analysis/generate_report.py` - Python script that generates reports
+- `requirements.txt` - Project dependencies
 
-1. **Trigger**: Workflow runs when changes are pushed to `analysis/*.py` files
-2. **Environment**: Sets up Python 3.8 on Ubuntu
-3. **Dependencies**: Installs project requirements
-4. **Report Generation**: Runs the report generation script
-5. **Artifact**: Uploads the generated PDF report
+## Key Points
 
-## Key Features Demonstrated
-- Path filtering with wildcards (`analysis/*.py`)
-- Automated script execution
-- Report generation with matplotlib
-- PDF artifact creation and upload
-- Stakeholder-ready deliverable generation
+- Workflow triggers on pushes to `analysis/*.py` files
+- Generates PDF reports with matplotlib and uploads as artifacts
 
-## Usage
+## How to Run
 
 ```bash
 # Test the report generation locally
 python analysis/generate_report.py
 ```
 
-This workflow triggers automatically when:
-- Changes are pushed to Python files in the `analysis/` directory
-- The generated report (PDF) becomes available as a downloadable artifact
-- Stakeholders can access the latest analysis results without manual intervention
+## Expected Output
+
+Workflow generates a PDF report and makes it available as a downloadable artifact when analysis scripts change.
+
+## Try This
+
+1. **Modify analysis**: Change the report generation script
+2. **Push changes**: Trigger the workflow by committing to `analysis/` directory
+3. **Download report**: Access the generated PDF from the workflow artifacts
+
+## Learn More
+
+← [Back to Chapter 12](../README.md) for more CI/CD patterns and the complete guide.

@@ -1,0 +1,3 @@
+2025-07-26 20:49:37 | INFO | file_logging:main:20 - This message appears in both terminal and file
+2025-07-26 20:49:37 | WARNING | file_logging:main:21 - This warning appears in both terminal and file
+2025-07-26 20:49:37 | ERROR | file_logging:main:22 - This error appears in both terminal and file

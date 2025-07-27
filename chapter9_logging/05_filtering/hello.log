@@ -1,0 +1,6 @@
+2025-07-26 20:51:20.631 | INFO     | __main__:main:17 - Hello World
+2025-07-26 20:51:20.631 | INFO     | __main__:main:19 - Hello again
+2025-07-26 20:51:20.631 | WARNING  | __main__:main:20 - Hello warning
+2025-07-26 20:51:32.316 | INFO     | __main__:main:17 - Hello World
+2025-07-26 20:51:32.316 | INFO     | __main__:main:19 - Hello again
+2025-07-26 20:51:32.316 | WARNING  | __main__:main:20 - Hello warning

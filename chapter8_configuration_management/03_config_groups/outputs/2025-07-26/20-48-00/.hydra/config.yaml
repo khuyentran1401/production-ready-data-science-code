@@ -1,0 +1,9 @@
+process:
+  strategy: drop_missing
+  cols_to_drop:
+  - free sulfur dioxide
+  feature: quality
+  test_size: 0.2
+data:
+  raw: data/raw/winequality-red.csv
+  intermediate: data/intermediate

@@ -1,0 +1,58 @@
+# Production environment configuration
+# Uses S3 storage with high-performance and security settings
+
+data_source: s3
+bucket: production-ml-bucket
+file_path: datasets/winequality-red.csv
+logging_level: WARNING
+
+database:
+  type: postgresql
+  host: prod-db.internal
+  port: 5432
+  database: ml_production
+  connection_pool_size: 20
+  timeout: 120
+  ssl_enabled: true
+
+processing:
+  batch_size: 1000
+  parallel_workers: 8
+  cache_enabled: false  # Ensure fresh data processing
+  debug_mode: false
+
+model:
+  save_path: s3://production-ml-bucket/models/production_model.pkl
+  checkpoint_frequency: 100
+  validation_split: 0.15
+
+api:
+  base_url: https://api.company.com
+  timeout: 120
+  retry_attempts: 10
+  rate_limit: 1000
+
+features:
+  - fixed acidity
+  - volatile acidity
+  - citric acid
+  - residual sugar
+  - chlorides
+  - total sulfur dioxide
+  - density
+  - pH
+  - sulphates
+  - alcohol
+
+target_column: quality
+
+monitoring:
+  enabled: true
+  metrics_endpoint: https://metrics.company.com
+  alerts_enabled: true
+  performance_tracking: true
+
+security:
+  encryption_enabled: true
+  audit_logging: true
+  access_control: strict

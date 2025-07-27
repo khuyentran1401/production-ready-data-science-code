@@ -1,91 +1,62 @@
-# Chapter 9: Logging Examples
+# Chapter 9: Logging
 
-This directory contains examples for logging with Loguru as demonstrated in Chapter 9 of the book.
+Structured logging with Loguru for production-ready applications.
 
-## Examples Overview
+These examples are from [Production-Ready Data Science](https://codecut.ai/production-ready-data-science/?utm_source=github&utm_medium=production-ready-data-science-code&utm_campaign=chapter9) by Khuyen Tran.
 
-### 1. Basic Logging (`01_basic_logging/`)
-- Introduction to Loguru's out-of-the-box functionality
-- Different log levels (debug, info, warning, error)
-- Colorful and informative logs by default
+← [Back to Main README](../README.md)
 
-### 2. Custom Formatting (`02_custom_formatting/`)
-- Customizing log output format
-- Using `logger.remove()` and `logger.add()`
-- Time formatting and metadata inclusion
+## Setup
 
-### 3. File Logging (`03_file_logging/`)
-- Logging to both terminal and file simultaneously
-- File handlers with custom formats
-- Level-based filtering
-
-### 4. Rotation and Retention (`04_rotation_retention/`)
-- Log file rotation strategies (size, time, periodic)
-- Retention policies for old logs
-- Log compression options
-
-### 5. Filtering (`05_filtering/`)
-- Message filtering using lambda functions
-- Selective logging based on content
-- Simple filtering without complex classes
-
-### 6. Exception Handling (`06_exception_handling/`)
-- Enhanced exception logging with full tracebacks
-- `@logger.catch` decorator for automatic exception catching
-- Detailed debugging information
-
-### 7. Colorized Logs (`07_colorized_logs/`)
-- Custom color schemes for log output
-- Color tags and level-based coloring
-- Enhanced readability
-
-## Prerequisites
-
-Install dependencies using:
 ```bash
+# From project root
 uv sync --group chapter9
 ```
 
-## Key Concepts Covered
+## Examples
 
-1. **Why Loguru?**:
-   - Combines power of logging with simplicity of print statements
-   - Elegant out-of-the-box functionality
-   - Colorful and informative logs by default
-
-2. **Loguru Features**:
-   - Simple configuration with `logger.add()`
-   - Flexible formatting with tokens (`{time}`, `{level}`, `{message}`)
-   - Easy file logging and rotation
-   - Lambda-based filtering
-   - Enhanced exception handling
-   - Colorized output
-
-3. **Best Practices**:
-   - Use appropriate log levels
-   - Include relevant metadata (module, function, line)
-   - Implement log rotation for production systems
-   - Filter logs appropriately for different outputs
-   - Use exception logging for better debugging
-
-## Running All Examples
-
-Each subdirectory contains its own README with specific instructions. Generally:
-
+### [01_basic_logging/](01_basic_logging/) - Basic Loguru usage
 ```bash
-# Navigate to any example directory
-cd 01_basic_logging/
-
-# Run the example
-uv run --group chapter9 python <script_name>.py
+cd 01_basic_logging && uv run python basic_loguru.py
 ```
 
-## Log Output Files
+### [02_custom_formatting/](02_custom_formatting/) - Custom log formats
+```bash
+cd 02_custom_formatting && uv run python custom_format.py
+```
 
-Some examples generate log files:
-- `info.log` - Basic file logging output
-- `hello.log` - Filtered logs containing "Hello"
-- `debug.log` - Rotated logs with retention
-- `logs/` directory - Various rotation strategies
+### [03_file_logging/](03_file_logging/) - File and terminal logging
+```bash
+cd 03_file_logging && uv run python file_logging.py
+```
 
-These files are created in the respective example directories when you run the scripts.
+### [04_rotation_retention/](04_rotation_retention/) - Log rotation strategies
+```bash
+cd 04_rotation_retention && uv run python rotation_example.py
+```
+
+### [05_filtering/](05_filtering/) - Message filtering
+```bash
+cd 05_filtering && uv run python filtering_example.py
+```
+
+### [06_exception_handling/](06_exception_handling/) - Exception logging
+```bash
+cd 06_exception_handling && uv run python exception_logging.py
+```
+
+### [07_colorized_logs/](07_colorized_logs/) - Color schemes
+```bash
+cd 07_colorized_logs && uv run python colorized_logging.py
+```
+
+## Quick Start
+
+```bash
+cd 01_basic_logging
+uv run python basic_loguru.py
+```
+
+---
+
+Each example is self-contained and ready to run.

@@ -1,19 +1,26 @@
 # File Logging
 
-This example demonstrates logging to both terminal and file simultaneously.
+Log to both terminal and file simultaneously for persistent record keeping.
 
 ## Files
-- `file_logging.py`: Logs to both terminal (default) and `info.log` file
 
-## Running the Example
+- `file_logging.py` - Logs to terminal and `info.log` file
+
+## Key Points
+
+- Add file handler alongside default terminal output
+- Customize format and filtering for each output destination
+
+## How to Run
 
 ```bash
 uv run --group chapter9 python file_logging.py
 ```
 
-Check the generated `info.log` file to see the logged messages.
+## Expected Output
 
-## Key Features Demonstrated
-- Simultaneous logging to terminal and file
-- File handler with custom format
-- Different log levels with file filtering
+Log messages appear in terminal and are also saved to `info.log` file for later review.
+
+## Learn More
+
+← [Back to Chapter 9](../README.md) for more logging patterns and the complete guide.

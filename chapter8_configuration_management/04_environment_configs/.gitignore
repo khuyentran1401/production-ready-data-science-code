@@ -1,0 +1,18 @@
+# Environment files containing sensitive data
+.env
+.env.local
+.env.*.local
+
+# Hydra outputs
+outputs/
+multirun/
+
+# Model files
+models/
+*.pkl
+
+# Data files
+data/
+
+# Logs
+*.log

@@ -1,17 +1,26 @@
 # Basic Loguru Logging
 
-This example demonstrates Loguru's elegant out-of-the-box functionality.
+Get started with Loguru's elegant logging with zero configuration.
 
 ## Files
-- `basic_loguru.py`: Simple logging with different levels
 
-## Running the Example
+- `basic_loguru.py` - Simple logging with different levels
+
+## Key Points
+
+- Works immediately with colorful, informative logs
+- Multiple log levels (debug, info, warning, error)
+
+## How to Run
 
 ```bash
 uv run --group chapter9 python basic_loguru.py
 ```
 
-## Key Features Demonstrated
-- Default colorful and informative logs
-- Different log levels (debug, info, warning, error)
-- No configuration required - works immediately
+## Expected Output
+
+You'll see colorful, formatted log messages with timestamps, levels, and source information.
+
+## Learn More
+
+← [Back to Chapter 9](../README.md) for more logging patterns and the complete guide.
