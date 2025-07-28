@@ -25,22 +25,22 @@ Transform your data science workflow with these production-ready skills:
 3. [Modules & Packages](chapter3_modules_packages/) - Project organization
 
 **Chapter 4-6: Code Quality**
-4. [Variables](chapter4_variables/) - Clean code practices
-5. [Functions](chapter5_functions/) - Function design
+4. [Variables](chapter4_variables/) - Clean code practices  
+5. [Functions](chapter5_functions/) - Function design  
 6. [Classes](chapter6_classes/) - Object-oriented programming
 
 **Chapter 7-9: Testing & Operations**
-7. [Unit Testing](chapter7_unit_testing/) - Automated testing
-8. [Configuration Management](chapter8_configuration_management/) - Settings management
+7. [Unit Testing](chapter7_unit_testing/) - Automated testing  
+8. [Configuration Management](chapter8_configuration_management/) - Settings management  
 9. [Logging](chapter9_logging/) - Monitoring and debugging
 
 **Chapter 10-11: Data**
-10. [Data Validation](chapter10_data_validation/) - Input validation
+10. [Data Validation](chapter10_data_validation/) - Input validation  
 11. [Data Version Control](chapter11_data_version_control/) - Dataset tracking
 
 **Chapter 12-14: Production**
-12. [Continuous Integration](chapter12_continuous_integration/) - Automated deployment
-13. [Package Your Project](chapter13_package_your_project/) - Package distribution
+12. [Continuous Integration](chapter12_continuous_integration/) - Automated deployment  
+13. [Package Your Project](chapter13_package_your_project/) - Package distribution  
 14. [Notebooks in Production](chapter14_notebooks_in_production/) - Production notebooks
 
 ## Setup Instructions
