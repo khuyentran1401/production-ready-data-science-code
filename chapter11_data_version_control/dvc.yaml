@@ -1,0 +1,36 @@
+stages:
+  prepare:
+    cmd: python src/data_preparation.py
+    deps:
+    - data/raw/customer_churn.csv
+    - src/data_preparation.py
+    outs:
+    - data/processed/clean_data.csv
+    
+  featurize:
+    cmd: python src/feature_engineering.py
+    deps:
+    - data/processed/clean_data.csv
+    - src/feature_engineering.py
+    - params.yaml
+    outs:
+    - data/features/features.csv
+    
+  train:
+    cmd: python src/train_model.py
+    deps:
+    - data/features/features.csv
+    - src/train_model.py
+    - params.yaml
+    outs:
+    - models/model.pkl
+    
+  evaluate:
+    cmd: python src/evaluate_model.py
+    deps:
+    - models/model.pkl
+    - data/features/features.csv
+    - src/evaluate_model.py
+    - params.yaml
+    outs:
+    - metrics/scores.json

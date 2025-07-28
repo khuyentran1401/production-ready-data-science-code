@@ -1,0 +1,23 @@
+data_preparation:
+  missing_threshold: 0.1
+  outlier_method: iqr
+  outlier_factor: 1.5
+
+feature_engineering:
+  scaling_method: standard
+  feature_selection: true
+  max_features: 20
+  correlation_threshold: 0.95
+
+model:
+  algorithm: random_forest
+  n_estimators: 100
+  max_depth: 5
+  min_samples_split: 2
+  min_samples_leaf: 1
+  random_state: 42
+
+evaluation:
+  test_size: 0.2
+  cv_folds: 5
+  random_state: 42
