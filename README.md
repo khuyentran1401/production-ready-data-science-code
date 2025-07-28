@@ -1,167 +1,81 @@
 # Production-Ready Data Science Code Examples
 
-This repository contains code examples and implementations from the book **"Production-Ready Data Science"** by Khuyen Tran.
+**Code examples from the Production-Ready Data Science book by Khuyen Tran.**
 
-🔗 **Book Link**: https://codecut.ai/production-ready-data-science/
+Enhance your data science workflow with scalable, production-ready practices through hands-on examples.
 
-## About the Book
+[🔗 **Get the Book**](https://codecut.ai/production-ready-data-science/?utm_source=github&utm_medium=production-ready-data-science-code&utm_campaign=main-readme)
 
-"Production-Ready Data Science" bridges the gap between data science prototypes and production-ready systems. It covers essential practices, tools, and methodologies for building robust, scalable, and maintainable data science solutions.
+## What You'll Gain
 
-## Environment Setup
+Transform your data science workflow with these production-ready skills:
+
+- **📁 Organization**: Transform messy notebooks into organized, maintainable code
+- **🔄 Reproducibility**: Create reproducible environments across teams and deployments  
+- **🧪 Quality**: Write modular, reusable, and testable Python code
+- **🔍 Testing**: Implement automated testing to catch bugs early
+- **📊 Version Control**: Leverage version control for code and data integrity
+- **🚀 Production**: Deploy bulletproof systems that scale
+
+## Examples by Chapter
+
+**Chapter 1-3: Foundation**
+1. [Version Control](chapter1_version_control/) - Git workflows
+2. [Dependency Management](chapter2_dependency_management/) - Environment setup  
+3. [Modules & Packages](chapter3_modules_packages/) - Project organization
+
+**Chapter 4-6: Code Quality**
+4. [Variables](chapter4_variables/) - Clean code practices
+5. [Functions](chapter5_functions/) - Function design
+6. [Classes](chapter6_classes/) - Object-oriented programming
+
+**Chapter 7-9: Testing & Operations**
+7. [Unit Testing](chapter7_unit_testing/) - Automated testing
+8. [Configuration Management](chapter8_configuration_management/) - Settings management
+9. [Logging](chapter9_logging/) - Monitoring and debugging
+
+**Chapter 10-11: Data**
+10. [Data Validation](chapter10_data_validation/) - Input validation
+11. [Data Version Control](chapter11_data_version_control/) - Dataset tracking
+
+**Chapter 12-14: Production**
+12. [Continuous Integration](chapter12_continuous_integration/) - Automated deployment
+13. [Package Your Project](chapter13_package_your_project/) - Package distribution
+14. [Notebooks in Production](chapter14_notebooks_in_production/) - Production notebooks
+
+## Setup Instructions
+
+<details>
+<summary><strong>📋 Full Installation Guide</strong> (Click to expand)</summary>
 
 ### Prerequisites
-- Python 3.11 or higher
+- Python 3.10.11 or higher
 - [uv](https://docs.astral.sh/uv/) - Fast Python package manager
 
-### Installation
+### Installation Options
 
-1. **Install uv** (if not already installed):
-   ```bash
-   # macOS and Linux
-   curl -LsSf https://astral.sh/uv/install.sh | sh
-   
-   # Windows
-   powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
-   ```
-
-2. **Clone the repository**:
-   ```bash
-   git clone https://github.com/khuyentran1401/production-ready-data-science-code.git
-   cd production-ready-data-science-code
-   ```
-
-3. **Install all dependencies**:
-   ```bash
-   # Install all dependencies for all chapters
-   uv sync --all-groups
-   
-   # Or install only specific chapter dependencies
-   uv sync --group chapter7  # For unit testing examples
-   uv sync --group chapter9  # For logging examples
-   ```
-
-### Available Dependency Groups
-- `dev` - Development tools (pre-commit)
-- `chapter7` - Unit testing (pytest, pytest-mock, textblob)
-- `chapter8` - Configuration management (hydra-core, pyyaml)
-- `chapter9` - Logging (loguru)
-- `chapter10` - Data validation (pandera)
-- `chapter12` - CI/CD tools (pdoc3)
-- `chapter13` - Packaging tools (hatchling, build)
-- `chapter14` - Notebooks (jupyter, marimo, ipytest)
-
-### Quick Start
-
+#### Option 1: Quick Start (Recommended)
 ```bash
-# Run examples from a specific chapter
-cd chapter7_unit_testing/01_basic_testing
-uv run pytest -v
-
-# Run Jupyter notebooks
-uv run jupyter notebook chapter4_variables/chapter4_variables.ipynb
-
-# Run logging examples
-cd chapter9_logging/01_basic_logging
-uv run python basic_loguru.py
+# Install everything at once
+curl -LsSf https://astral.sh/uv/install.sh | sh
+git clone https://github.com/khuyentran1401/production-ready-data-science-code.git
+cd production-ready-data-science-code
+uv sync --all-groups
 ```
 
-## Repository Structure
+#### Option 2: Chapter-by-Chapter
+```bash
+# Install only what you need
+uv sync --group chapter7   # Testing examples
+uv sync --group chapter9   # Logging examples  
+uv sync --group chapter10  # Data validation
+# ... etc
+```
 
-This repository provides practical code examples that accompany the concepts discussed in the book, organized by chapter:
-
-### 📁 **chapter3_modules_packages/**
-**Module and Package Organization**
-- Project structure best practices
-- Import strategies and package design patterns
-- Creating reusable Python modules
-
-### 📁 **chapter4_variables/**
-**Variable Management and Best Practices** 
-- Variable naming conventions and type hints
-- Data validation with Pydantic models
-- Memory-efficient variable handling
-- **Format**: Jupyter notebook with interactive examples
-
-### 📁 **chapter5_functions/**
-**Function Design Patterns**
-- Writing clean, testable functions
-- Error handling and input validation
-- Function composition and decorators
-- **Format**: Jupyter notebook with practical exercises
-
-### 📁 **chapter6_classes/**
-**Object-Oriented Programming with Pydantic**
-- Class design principles for data science
-- Pydantic models for data validation
-- Inheritance and composition patterns
-- **Format**: Jupyter notebook with class examples
-
-### 📁 **chapter7_unit_testing/**
-**Comprehensive Testing with pytest**
-- Basic test structure and assertions
-- Parametrization for multiple test scenarios
-- Fixtures for shared test data and setup
-- Mocking external dependencies (databases, APIs)
-- Edge case testing and error handling
-- **Dependencies**: `uv sync --group chapter7`
-
-### 📁 **chapter8_configuration_management/**
-**Configuration Management with Hydra**
-- YAML-based configuration files
-- Configuration interpolation and composition
-- Config groups for different environments
-- **Dependencies**: `uv sync --group chapter8`
-
-### 📁 **chapter9_logging/**
-**Advanced Logging with Loguru**
-- Structured logging with custom formatters
-- File rotation and retention policies
-- Log filtering and exception handling
-- Colorized output for better debugging
-- **Dependencies**: `uv sync --group chapter9`
-
-### 📁 **chapter10_data_validation/**
-**Data Validation Techniques**
-- Schema validation with Pandera
-- Data quality checks and constraints
-- Error reporting and data profiling
-- **Format**: Jupyter notebook
-- **Dependencies**: `uv sync --group chapter10`
-
-### 📁 **chapter12_continuous_integration/**
-**CI/CD Workflows and Automation**
-- GitHub Actions for automated testing
-- Documentation generation with pdoc3
-- Job dependencies and workflow orchestration
-- **Dependencies**: `uv sync --group chapter12`
-
-### 📁 **chapter13_package_your_project/**
-**Python Packaging with Modern Tools**
-- Complete packaging example with hatchling
-- PyPI publishing workflow
-- Semantic versioning and changelog management
-- Documentation generation and testing
-- **Dependencies**: `uv sync --group chapter13`
-
-### 📁 **chapter14_notebooks_in_production/**
-**Production-Ready Notebooks**
-- Marimo for reactive notebook development
-- Dependency tracking and reproducibility
-- Testing notebook code with ipytest
-- Converting notebooks to production scripts
-- **Dependencies**: `uv sync --group chapter14`
-
-## Getting Started
-
-1. **Choose a chapter** based on the concept you want to learn
-2. **Install dependencies** for that chapter: `uv sync --group chapterX`
-3. **Navigate to the chapter directory** and follow the chapter-specific README
-4. **Run the examples** using the provided commands
-
-Each chapter directory contains its own README with detailed instructions and explanations for the specific concepts covered.
+</details>
 
 ---
 
-**Author**: Khuyen Tran  
-**Website**: https://codecut.ai/
+**Ready to get started?** Browse [examples above](#examples-by-chapter) or [get the book](https://codecut.ai/production-ready-data-science/?utm_source=github&utm_medium=production-ready-data-science-code&utm_campaign=bottom-cta)
+
+**Author**: Khuyen Tran | **Website**: https://codecut.ai/

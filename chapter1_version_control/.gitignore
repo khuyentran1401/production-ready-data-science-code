@@ -1,0 +1,50 @@
+# Data files
+*.csv
+*.parquet
+*.xlsx
+*.json
+*.h5
+*.feather
+
+# Model files
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# Output files
+*.png
+*.jpg
+*.pdf
+*.svg
+plots/
+reports/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*~

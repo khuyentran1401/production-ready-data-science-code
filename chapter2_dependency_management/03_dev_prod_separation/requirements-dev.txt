@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest>=6.2.5
+black>=21.9b0
+flake8>=3.9.2
