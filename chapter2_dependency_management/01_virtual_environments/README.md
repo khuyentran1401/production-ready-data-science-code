@@ -52,3 +52,11 @@ python legacy_project.py  # df.append() now removed, script fails
 ## Why This Matters
 
 Virtual environments enable teams to maintain legacy systems while developing with modern tools, preventing costly rewrites.
+
+← [Back to Chapter 2](../README.md)
+
+---
+
+**Next:** [02_version_ranges →](../02_version_ranges/README.md)
+
+*Example 1 of 4*

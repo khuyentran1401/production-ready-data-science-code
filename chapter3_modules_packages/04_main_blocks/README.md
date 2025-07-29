@@ -44,4 +44,10 @@ With main blocks: Code runs only when intended
 
 ## Learn More
 
-← [Back to Chapter 3](../README.md) for more modules and packages patterns and the complete guide.
+← [Back to Chapter 3](../README.md)
+
+---
+
+← [Previous: 03_import_practices](../03_import_practices/README.md) | **Next:** [05_circular_imports →](../05_circular_imports/README.md)
+
+*Example 4 of 6*

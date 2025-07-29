@@ -31,4 +31,10 @@ Notebook displays filtering example where changing the threshold in Cell 1 autom
 
 ## Learn More
 
-← [Back to Chapter 14](../README.md) for more notebook patterns and the complete guide.
+← [Back to Chapter 14](../README.md)
+
+---
+
+← [Previous: 01_basic_marimo_notebook](../01_basic_marimo_notebook/README.md) | **Next:** [03_data_analysis_workflow →](../03_data_analysis_workflow/README.md)
+
+*Example 2 of 5*

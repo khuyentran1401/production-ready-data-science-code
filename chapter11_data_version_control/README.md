@@ -2,8 +2,6 @@
 
 Transform your data science projects with reproducible data management and ML pipelines using DVC.
 
-← [Back to Main README](../README.md)
-
 ## Setup
 
 ```bash
@@ -184,3 +182,7 @@ uv run dvc push
 ## Why This Matters
 
 Data version control eliminates reproducibility nightmares, enables efficient data pipeline management, and ensures teams can collaborate confidently with large datasets while maintaining Git repository performance.
+
+---
+
+← [Back to Main README](../README.md) | **Next:** [Chapter 12: Continuous Integration →](../chapter12_continuous_integration/README.md)

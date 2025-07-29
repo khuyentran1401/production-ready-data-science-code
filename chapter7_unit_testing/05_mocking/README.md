@@ -48,4 +48,10 @@ Tests pass without any actual external calls.
 
 ## Learn More
 
-← [Back to Chapter 7](../README.md) for more testing patterns and the complete testing guide.
+← [Back to Chapter 7](../README.md)
+
+---
+
+← [Previous: 04_edge_cases](../04_edge_cases/README.md) | **Next:** [06_test_organization →](../06_test_organization/README.md)
+
+*Example 5 of 6*

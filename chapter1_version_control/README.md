@@ -4,8 +4,6 @@
 
 Data scientists often work on experiments that evolve rapidly—tweaking models, trying different datasets, collaborating with teammates. Without version control, it's easy to lose working code, accidentally break functionality, or struggle to reproduce results.
 
-← [Back to Main README](../README.md)
-
 ## Prerequisites
 
 - Git installed on your system
@@ -95,3 +93,7 @@ git fetch                             # Download remote changes (don't merge)
 ## Why This Matters
 
 Version control transforms chaotic data science experiments into organized, reproducible workflows that enable collaboration and prevent costly mistakes.
+
+---
+
+← [Back to Main README](../README.md) | **Next:** [Chapter 2: Dependency Management →](../chapter2_dependency_management/README.md)

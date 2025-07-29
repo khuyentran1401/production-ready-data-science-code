@@ -43,4 +43,10 @@ Both approaches work, but explicit imports prevent naming conflicts and improve 
 
 ## Learn More
 
-← [Back to Chapter 3](../README.md) for more modules and packages patterns and the complete guide.
+← [Back to Chapter 3](../README.md)
+
+---
+
+← [Previous: 02_modular_design](../02_modular_design/README.md) | **Next:** [04_main_blocks →](../04_main_blocks/README.md)
+
+*Example 3 of 6*

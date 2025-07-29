@@ -33,4 +33,10 @@ Notebook opens in browser showing two cells where the second cell automatically 
 
 ## Learn More
 
-← [Back to Chapter 14](../README.md) for more notebook patterns and the complete guide.
+← [Back to Chapter 14](../README.md)
+
+---
+
+**Next:** [02_dependency_tracking →](../02_dependency_tracking/README.md)
+
+*Example 1 of 5*

@@ -42,4 +42,10 @@ The script will show how different processing strategies handle missing data.
 
 ## Learn More
 
-← [Back to Chapter 8](../README.md) for more configuration patterns and the complete guide.
+← [Back to Chapter 8](../README.md)
+
+---
+
+← [Previous: 02_interpolation](../02_interpolation/README.md) | **Next:** [04_environment_configs →](../04_environment_configs/README.md)
+
+*Example 3 of 4*

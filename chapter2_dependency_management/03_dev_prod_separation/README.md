@@ -48,3 +48,11 @@ Development environment is larger but has testing tools!
 ## Why This Matters
 
 Smaller production deployments reduce attack surface, deployment time, and infrastructure costs while keeping development workflows productive.
+
+← [Back to Chapter 2](../README.md)
+
+---
+
+← [Previous: 02_version_ranges](../02_version_ranges/README.md) | **Next:** [04_uv_basics →](../04_uv_basics/README.md)
+
+*Example 3 of 4*

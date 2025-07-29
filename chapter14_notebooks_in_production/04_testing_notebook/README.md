@@ -34,4 +34,10 @@ Pytest runs tests defined in the notebook cells, providing standard test output 
 
 ## Learn More
 
-← [Back to Chapter 14](../README.md) for more notebook patterns and the complete guide.
+← [Back to Chapter 14](../README.md)
+
+---
+
+← [Previous: 03_data_analysis_workflow](../03_data_analysis_workflow/README.md) | **Next:** [05_variable_redefinition_error →](../05_variable_redefinition_error/README.md)
+
+*Example 4 of 5*

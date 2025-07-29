@@ -23,4 +23,10 @@ You'll see detailed stack traces with local variable values for enhanced debuggi
 
 ## Learn More
 
-← [Back to Chapter 9](../README.md) for more logging patterns and the complete guide.
+← [Back to Chapter 9](../README.md)
+
+---
+
+← [Previous: 05_filtering](../05_filtering/README.md) | **Next:** [07_colorized_logs →](../07_colorized_logs/README.md)
+
+*Example 6 of 7*

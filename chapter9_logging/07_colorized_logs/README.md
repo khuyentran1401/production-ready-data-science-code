@@ -23,4 +23,10 @@ You'll see color-coded timestamps, log levels, and messages for improved readabi
 
 ## Learn More
 
-← [Back to Chapter 9](../README.md) for more logging patterns and the complete guide.
+← [Back to Chapter 9](../README.md)
+
+---
+
+← [Previous: 06_exception_handling](../06_exception_handling/README.md)
+
+*Example 7 of 7*

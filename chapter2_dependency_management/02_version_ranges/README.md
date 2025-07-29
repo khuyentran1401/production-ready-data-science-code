@@ -46,3 +46,11 @@ Version ranges get you bug fixes automatically!
 ## Why This Matters
 
 Automatic security patches and bug fixes reduce maintenance overhead while preventing surprise breaking changes in production.
+
+← [Back to Chapter 2](../README.md)
+
+---
+
+← [Previous: 01_virtual_environments](../01_virtual_environments/README.md) | **Next:** [03_dev_prod_separation →](../03_dev_prod_separation/README.md)
+
+*Example 2 of 4*

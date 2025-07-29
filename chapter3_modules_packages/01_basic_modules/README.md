@@ -32,4 +32,10 @@ A `data/` directory will be created with the CSV file.
 
 ## Learn More
 
-← [Back to Chapter 3](../README.md) for more modules and packages patterns and the complete guide.
+← [Back to Chapter 3](../README.md)
+
+---
+
+**Next:** [02_modular_design →](../02_modular_design/README.md)
+
+*Example 1 of 6*

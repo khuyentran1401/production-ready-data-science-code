@@ -29,4 +29,10 @@ Check the `logs/` directory to see files automatically rotated, compressed, and 
 
 ## Learn More
 
-← [Back to Chapter 9](../README.md) for more logging patterns and the complete guide.
+← [Back to Chapter 9](../README.md)
+
+---
+
+← [Previous: 03_file_logging](../03_file_logging/README.md) | **Next:** [05_filtering →](../05_filtering/README.md)
+
+*Example 4 of 7*

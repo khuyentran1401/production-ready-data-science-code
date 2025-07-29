@@ -32,4 +32,10 @@ Jobs execute in correct sequence with parallel execution where safe, ensuring ef
 
 ## Learn More
 
-← [Back to Chapter 12](../README.md) for more CI/CD patterns and the complete guide.
+← [Back to Chapter 12](../README.md)
+
+---
+
+← [Previous: 03_generate_report](../03_generate_report/README.md)
+
+*Example 4 of 4*

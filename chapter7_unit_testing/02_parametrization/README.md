@@ -45,4 +45,10 @@ test_text_processor.py::test_word_count_parametrized[hello world-2] PASSED
 
 ## Learn More
 
-← [Back to Chapter 7](../README.md) for more testing patterns and the complete testing guide.
+← [Back to Chapter 7](../README.md)
+
+---
+
+← [Previous: 01_basic_testing](../01_basic_testing/README.md) | **Next:** [03_fixtures →](../03_fixtures/README.md)
+
+*Example 2 of 6*

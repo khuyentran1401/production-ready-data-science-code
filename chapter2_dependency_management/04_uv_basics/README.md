@@ -60,3 +60,11 @@ Try timing `uv add pandas` vs `pip install pandas`!
 ## Why This Matters
 
 Faster dependency resolution and unified tooling reduces project setup time from minutes to seconds, improving developer productivity.
+
+← [Back to Chapter 2](../README.md)
+
+---
+
+← [Previous: 03_dev_prod_separation](../03_dev_prod_separation/README.md)
+
+*Example 4 of 4*

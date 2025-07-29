@@ -6,8 +6,6 @@ Data science projects often break when shared between team members or deployed t
 
 Practice the key dependency management concepts from the book with simple, runnable examples.
 
-← [Back to Main README](../README.md)
-
 
 ## Examples
 
@@ -41,3 +39,7 @@ uv python pin 3.10.11
 ## Why This Matters
 
 Proper dependency management eliminates "works on my machine" problems, ensures reproducible results across environments, and prevents production failures caused by package version conflicts.
+
+---
+
+← [Back to Main README](../README.md) | **Next:** [Chapter 3: Modules & Packages →](../chapter3_modules_packages/README.md)

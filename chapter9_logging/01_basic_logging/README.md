@@ -23,4 +23,10 @@ You'll see colorful, formatted log messages with timestamps, levels, and source 
 
 ## Learn More
 
-← [Back to Chapter 9](../README.md) for more logging patterns and the complete guide.
+← [Back to Chapter 9](../README.md)
+
+---
+
+**Next:** [02_custom_formatting →](../02_custom_formatting/README.md)
+
+*Example 1 of 7*

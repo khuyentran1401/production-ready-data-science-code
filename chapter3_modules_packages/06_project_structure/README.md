@@ -50,4 +50,10 @@ Pipeline executes data loading, processing, and model training steps. All tests 
 
 ## Learn More
 
-← [Back to Chapter 3](../README.md) for more modules and packages patterns and the complete guide.
+← [Back to Chapter 3](../README.md)
+
+---
+
+← [Previous: 05_circular_imports](../05_circular_imports/README.md)
+
+*Example 6 of 6*

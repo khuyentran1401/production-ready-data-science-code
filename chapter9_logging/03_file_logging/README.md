@@ -23,4 +23,10 @@ Log messages appear in terminal and are also saved to `info.log` file for later 
 
 ## Learn More
 
-← [Back to Chapter 9](../README.md) for more logging patterns and the complete guide.
+← [Back to Chapter 9](../README.md)
+
+---
+
+← [Previous: 02_custom_formatting](../02_custom_formatting/README.md) | **Next:** [04_rotation_retention →](../04_rotation_retention/README.md)
+
+*Example 3 of 7*

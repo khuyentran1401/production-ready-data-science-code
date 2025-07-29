@@ -87,4 +87,10 @@ uv run --group chapter14 marimo edit variable_redefinition_demo.py
 
 ## Learn More
 
-← [Back to Chapter 14](../README.md) for more notebook patterns and production-ready techniques.
+← [Back to Chapter 14](../README.md)
+
+---
+
+← [Previous: 04_testing_notebook](../04_testing_notebook/README.md)
+
+*Example 5 of 5*

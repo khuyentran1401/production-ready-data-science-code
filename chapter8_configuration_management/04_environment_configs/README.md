@@ -272,3 +272,11 @@ After mastering environment configs:
 2. Implement configuration validation with Pydantic
 3. Add configuration versioning and migration tools
 4. Integrate with secret management services (AWS Secrets Manager, etc.)
+
+← [Back to Chapter 8](../README.md)
+
+---
+
+← [Previous: 03_config_groups](../03_config_groups/README.md)
+
+*Example 4 of 4*

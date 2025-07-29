@@ -27,4 +27,10 @@ Workflow creates downloadable HTML documentation artifact when PR modifies sourc
 
 ## Learn More
 
-← [Back to Chapter 12](../README.md) for more CI/CD patterns and the complete guide.
+← [Back to Chapter 12](../README.md)
+
+---
+
+**Next:** [02_data_pipeline →](../02_data_pipeline/README.md)
+
+*Example 1 of 4*

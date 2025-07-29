@@ -31,4 +31,10 @@ Notebook displays a complete analysis workflow: data generation → exploration 
 
 ## Learn More
 
-← [Back to Chapter 14](../README.md) for more notebook patterns and the complete guide.
+← [Back to Chapter 14](../README.md)
+
+---
+
+← [Previous: 02_dependency_tracking](../02_dependency_tracking/README.md) | **Next:** [04_testing_notebook →](../04_testing_notebook/README.md)
+
+*Example 3 of 5*

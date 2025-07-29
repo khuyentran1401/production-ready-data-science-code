@@ -23,4 +23,10 @@ You'll see structured log messages with custom timestamp format and detailed sou
 
 ## Learn More
 
-← [Back to Chapter 9](../README.md) for more logging patterns and the complete guide.
+← [Back to Chapter 9](../README.md)
+
+---
+
+← [Previous: 01_basic_logging](../01_basic_logging/README.md) | **Next:** [03_file_logging →](../03_file_logging/README.md)
+
+*Example 2 of 7*

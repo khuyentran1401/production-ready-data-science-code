@@ -4,8 +4,6 @@
 
 Data science applications often fail silently in production, leaving teams to debug issues with only cryptic error messages or print statements scattered throughout code. Without proper logging, it's impossible to monitor model performance, trace data pipeline failures, or understand what happened when ML systems break.
 
-← [Back to Main README](../README.md)
-
 ## Examples
 
 - [01_basic_logging/](01_basic_logging/) - Basic Loguru usage
@@ -27,3 +25,7 @@ uv sync --group chapter9
 ## Why This Matters
 
 Structured logging enables observability in production ML systems, faster debugging, and proactive monitoring of data pipelines and model performance.
+
+---
+
+← [Back to Main README](../README.md) | **Next:** [Chapter 10: Data Validation →](../chapter10_data_validation/README.md)

@@ -34,4 +34,10 @@ Workflow automatically pulls latest data from DVC remote and executes the comple
 
 ## Learn More
 
-← [Back to Chapter 12](../README.md) for more CI/CD patterns and the complete guide.
+← [Back to Chapter 12](../README.md)
+
+---
+
+← [Previous: 01_basic_ci](../01_basic_ci/README.md) | **Next:** [03_generate_report →](../03_generate_report/README.md)
+
+*Example 2 of 4*

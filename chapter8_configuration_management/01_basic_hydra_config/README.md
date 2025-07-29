@@ -35,4 +35,10 @@ The script will load configuration from YAML and process data with the specified
 
 ## Learn More
 
-← [Back to Chapter 8](../README.md) for more configuration patterns and the complete guide.
+← [Back to Chapter 8](../README.md)
+
+---
+
+**Next:** [02_interpolation →](../02_interpolation/README.md)
+
+*Example 1 of 4*

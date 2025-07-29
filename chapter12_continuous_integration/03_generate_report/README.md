@@ -32,4 +32,10 @@ Workflow generates a PDF report and makes it available as a downloadable artifac
 
 ## Learn More
 
-← [Back to Chapter 12](../README.md) for more CI/CD patterns and the complete guide.
+← [Back to Chapter 12](../README.md)
+
+---
+
+← [Previous: 02_data_pipeline](../02_data_pipeline/README.md) | **Next:** [04_job_dependencies →](../04_job_dependencies/README.md)
+
+*Example 3 of 4*

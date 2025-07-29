@@ -32,4 +32,10 @@ You'll see how changing `project.name` automatically updates all paths that refe
 
 ## Learn More
 
-← [Back to Chapter 8](../README.md) for more configuration patterns and the complete guide.
+← [Back to Chapter 8](../README.md)
+
+---
+
+← [Previous: 01_basic_hydra_config](../01_basic_hydra_config/README.md) | **Next:** [03_config_groups →](../03_config_groups/README.md)
+
+*Example 2 of 4*

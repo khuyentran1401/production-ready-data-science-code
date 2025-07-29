@@ -58,4 +58,10 @@ tests/test_model.py::test_predict PASSED
 
 ## Learn More
 
-← [Back to Chapter 7](../README.md) for more testing patterns and the complete testing guide.
+← [Back to Chapter 7](../README.md)
+
+---
+
+← [Previous: 05_mocking](../05_mocking/README.md)
+
+*Example 6 of 6*

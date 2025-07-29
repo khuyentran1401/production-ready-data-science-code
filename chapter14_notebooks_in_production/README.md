@@ -4,8 +4,6 @@
 
 Traditional Jupyter notebooks suffer from hidden state, execution order dependencies, and variable redefinition issues that make them unreliable for production use. Teams struggle with notebooks that work for one person but fail for others, results that can't be reproduced, and analysis that breaks when cells are run out of order.
 
-← [Back to Main README](../README.md)
-
 ## Examples
 
 - [01_basic_marimo_notebook/](01_basic_marimo_notebook/) - Introduction to marimo structure
@@ -25,3 +23,9 @@ uv sync --group chapter14
 ## Why This Matters
 
 Production-ready notebooks with automatic dependency tracking and deterministic execution enable reliable, reproducible data science workflows that teams can trust and deploy.
+
+---
+
+← [Back to Main README](../README.md)
+
+🎉 **Congratulations!** You've completed all chapters of Production-Ready Data Science.

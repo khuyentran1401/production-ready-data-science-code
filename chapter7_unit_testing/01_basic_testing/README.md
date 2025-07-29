@@ -49,4 +49,10 @@ test_sentiment_analyzer.py::test_extract_sentiment_neutral PASSED
 
 ## Learn More
 
-← [Back to Chapter 7](../README.md) for more testing patterns and the complete testing guide.
+← [Back to Chapter 7](../README.md)
+
+---
+
+**Next:** [02_parametrization →](../02_parametrization/README.md)
+
+*Example 1 of 6*

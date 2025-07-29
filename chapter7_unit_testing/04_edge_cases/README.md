@@ -47,4 +47,10 @@ test_error_scenarios.py::test_invalid_input_types PASSED
 
 ## Learn More
 
-← [Back to Chapter 7](../README.md) for more testing patterns and the complete testing guide.
+← [Back to Chapter 7](../README.md)
+
+---
+
+← [Previous: 03_fixtures](../03_fixtures/README.md) | **Next:** [05_mocking →](../05_mocking/README.md)
+
+*Example 4 of 6*

@@ -4,8 +4,6 @@
 
 Data science code often stays trapped in individual notebooks or scripts, making it impossible for others to reuse valuable utilities and models. Without proper packaging, teams duplicate code, struggle with dependencies, and can't easily deploy models. Python packaging transforms reusable code into distributable libraries that teams can install and share.
 
-← [Back to Main README](../README.md)
-
 ## Setup
 
 ```bash
@@ -121,3 +119,7 @@ The package follows [semantic versioning](https://semver.org/):
 ## Why This Matters
 
 Packaging enables code reuse across projects, simplifies deployment, and allows data science teams to build on each other's work efficiently.
+
+---
+
+← [Back to Main README](../README.md) | **Next:** [Chapter 14: Notebooks in Production →](../chapter14_notebooks_in_production/README.md)

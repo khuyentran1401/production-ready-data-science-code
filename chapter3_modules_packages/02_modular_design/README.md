@@ -41,4 +41,10 @@ Both approaches produce the same results, but modular is easier to maintain.
 
 ## Learn More
 
-← [Back to Chapter 3](../README.md) for more modules and packages patterns and the complete guide.
+← [Back to Chapter 3](../README.md)
+
+---
+
+← [Previous: 01_basic_modules](../01_basic_modules/README.md) | **Next:** [03_import_practices →](../03_import_practices/README.md)
+
+*Example 2 of 6*

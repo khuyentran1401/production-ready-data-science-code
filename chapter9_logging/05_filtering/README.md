@@ -24,4 +24,10 @@ Only messages containing "Hello" will be saved to `hello.log`, while all message
 
 ## Learn More
 
-← [Back to Chapter 9](../README.md) for more logging patterns and the complete guide.
+← [Back to Chapter 9](../README.md)
+
+---
+
+← [Previous: 04_rotation_retention](../04_rotation_retention/README.md) | **Next:** [06_exception_handling →](../06_exception_handling/README.md)
+
+*Example 5 of 7*

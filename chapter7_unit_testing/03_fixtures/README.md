@@ -50,4 +50,10 @@ test_advanced_analysis.py::test_sales_analysis PASSED
 
 ## Learn More
 
-← [Back to Chapter 7](../README.md) for more testing patterns and the complete testing guide.
+← [Back to Chapter 7](../README.md)
+
+---
+
+← [Previous: 02_parametrization](../02_parametrization/README.md) | **Next:** [04_edge_cases →](../04_edge_cases/README.md)
+
+*Example 3 of 6*

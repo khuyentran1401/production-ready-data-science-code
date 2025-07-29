@@ -44,4 +44,10 @@ Circular version may fail with ImportError. Fixed version runs cleanly with coor
 
 ## Learn More
 
-← [Back to Chapter 3](../README.md) for more modules and packages patterns and the complete guide.
+← [Back to Chapter 3](../README.md)
+
+---
+
+← [Previous: 04_main_blocks](../04_main_blocks/README.md) | **Next:** [06_project_structure →](../06_project_structure/README.md)
+
+*Example 5 of 6*
