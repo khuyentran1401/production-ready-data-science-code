@@ -23,10 +23,10 @@ Compare monolithic vs modular code approaches to see why breaking large files in
 
 ```bash
 # Monolithic approach
-cd monolithic && uv run main.py
+uv run monolithic/main.py
 
 # Modular approach  
-cd modular && uv run main.py
+uv run modular/main.py
 ```
 
 ## Expected Output

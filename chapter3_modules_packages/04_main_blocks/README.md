@@ -24,10 +24,10 @@ Use `if __name__ == "__main__":` to control when code executes in Python modules
 
 ```bash
 # See the problem
-cd without_main && uv run main.py
+uv run without_main/main.py
 
 # See the solution
-cd ../with_main && uv run main.py
+uv run with_main/main.py
 ```
 
 ## Expected Output

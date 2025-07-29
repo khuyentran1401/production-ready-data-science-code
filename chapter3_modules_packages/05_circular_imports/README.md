@@ -25,10 +25,10 @@ Demonstrates circular import problems and shows how to fix them using the coordi
 
 ```bash
 # See the problem (may cause ImportError)
-cd circular && uv run data_processor.py
+uv run circular/data_processor.py
 
 # See the solution
-cd ../fixed && uv run main.py
+uv run fixed/main.py
 ```
 
 ## Expected Output

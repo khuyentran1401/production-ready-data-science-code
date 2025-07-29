@@ -22,13 +22,13 @@ Essential import practices that make Python code more maintainable and avoid nam
 
 ```bash
 # See the problem with wildcard imports
-cd wildcard_imports && uv run process_data_bad.py
+uv run wildcard_imports/process_data_bad.py
 
 # See the solution with explicit imports  
-uv run process_data_good.py
+uv run wildcard_imports/process_data_good.py
 
 # See proper import grouping
-cd ../import_grouping && uv run example.py
+uv run import_grouping/example.py
 ```
 
 ## Expected Output

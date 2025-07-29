@@ -17,7 +17,7 @@ uv sync --group chapter13
 
 ### [pandas_processors/](pandas_processors/) - Complete package structure with tests
 ```bash
-cd pandas_processors && pytest
+uv run pytest pandas_processors/
 ```
 
 ### [pyproject.toml](pyproject.toml) - Modern Python packaging configuration
@@ -27,14 +27,13 @@ cat pyproject.toml
 
 ### [tests/](tests/) - Test suite for package validation
 ```bash
-pytest --cov=pandas_processors
+uv run pytest --cov=pandas_processors
 ```
 
 ## Quick Start
 
 ```bash
-cd pandas_processors
-pytest -v
+uv run pytest pandas_processors/ -v
 ```
 
 ---
