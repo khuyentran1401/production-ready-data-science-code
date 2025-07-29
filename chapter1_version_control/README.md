@@ -2,8 +2,6 @@
 
 Practical examples for Chapter 1 of the book. Read Chapter 1 for complete explanations of Git concepts and workflows.
 
-These examples are from [Production-Ready Data Science](https://codecut.ai/production-ready-data-science/?utm_source=github&utm_medium=production-ready-data-science-code&utm_campaign=chapter1) by Khuyen Tran.
-
 ← [Back to Main README](../README.md)
 
 ## Prerequisites
@@ -24,6 +22,8 @@ These examples are from [Production-Ready Data Science](https://codecut.ai/produ
 git init
 ```
 
+Output:
+
 ```
 Initialized empty Git repository in /path/to/chapter1_version_control/.git/
 ```
@@ -31,6 +31,8 @@ Initialized empty Git repository in /path/to/chapter1_version_control/.git/
 ```bash
 git status
 ```
+
+Output:
 
 ```
 On branch main
@@ -46,6 +48,8 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
+Output:
+
 ```bash
 git add .
 ```
@@ -53,6 +57,8 @@ git add .
 ```bash
 git commit -m "Initial commit: Add data science project files"
 ```
+
+Output:
 
 ```
 [main (root-commit) abc1234] Initial commit: Add data science project files
@@ -65,6 +71,8 @@ git commit -m "Initial commit: Add data science project files"
 ```bash
 git log --oneline
 ```
+
+Output:
 
 ```
 abc1234 (HEAD -> main) Initial commit: Add data science project files
@@ -80,6 +88,8 @@ git remote add origin https://github.com/USERNAME/repo-name.git
 git remote -v
 ```
 
+Output:
+
 ```
 origin  https://github.com/USERNAME/repo-name.git (fetch)
 origin  https://github.com/USERNAME/repo-name.git (push)
@@ -88,6 +98,8 @@ origin  https://github.com/USERNAME/repo-name.git (push)
 ```bash
 git push -u origin main
 ```
+
+Output:
 
 ```
 Enumerating objects: 7, done.
@@ -105,6 +117,8 @@ branch 'main' set up to track 'origin/main'.
 git pull origin main
 ```
 
+Output:
+
 ```
 From https://github.com/USERNAME/repo-name
  * branch            main       -> FETCH_HEAD
@@ -117,6 +131,8 @@ Already up to date.
 git checkout -b feature/improve-model
 ```
 
+Output:
+
 ```
 Switched to a new branch 'feature/improve-model'
 ```
@@ -124,6 +140,8 @@ Switched to a new branch 'feature/improve-model'
 ```bash
 git branch
 ```
+
+Output:
 
 ```
 * feature/improve-model
@@ -134,6 +152,8 @@ git branch
 git checkout main
 ```
 
+Output:
+
 ```
 Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
@@ -142,6 +162,8 @@ Your branch is up to date with 'origin/main'.
 ```bash
 git merge feature/improve-model
 ```
+
+Output:
 
 ```
 Updating abc1234..def5678
@@ -153,6 +175,8 @@ Fast-forward
 ```bash
 git branch -d feature/improve-model
 ```
+
+Output:
 
 ```
 Deleted branch feature/improve-model (was def5678).
@@ -186,6 +210,8 @@ Dropped refs/stash@{0} (ghi9012)
 ```bash
 git revert HEAD
 ```
+
+Output:
 
 ```
 [main jkl3456] Revert "Add problematic feature"

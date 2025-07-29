@@ -2,8 +2,6 @@
 
 Design clean, testable functions with proper parameters and error handling.
 
-These examples are from [Production-Ready Data Science](https://codecut.ai/production-ready-data-science/?utm_source=github&utm_medium=production-ready-data-science-code&utm_campaign=chapter5) by Khuyen Tran.
-
 ← [Back to Main README](../README.md)
 
 ## Setup

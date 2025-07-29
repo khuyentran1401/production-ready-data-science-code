@@ -2,8 +2,6 @@
 
 Complete Python packaging example using modern tooling with uv and hatchling.
 
-These examples are from [Production-Ready Data Science](https://codecut.ai/production-ready-data-science/?utm_source=github&utm_medium=production-ready-data-science-code&utm_campaign=chapter13) by Khuyen Tran.
-
 ← [Back to Main README](../README.md)
 
 ## Setup

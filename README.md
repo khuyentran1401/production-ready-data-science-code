@@ -47,36 +47,36 @@ Transform your data science workflow with these production-ready skills:
 13. [Package Your Project](chapter13_package_your_project/) - Package distribution
 14. [Notebooks in Production](chapter14_notebooks_in_production/) - Production notebooks
 
-## Setup Instructions
+## Getting Started
 
-<details>
-<summary><strong>📋 Full Installation Guide</strong> (Click to expand)</summary>
+### Fork and Clone
+
+1. Click the "Fork" button at the top of this page
+2. This creates your own copy at: `github.com/YOUR_USERNAME/production-ready-data-science-code`
+3. Clone your fork:
+```bash
+git clone https://github.com/YOUR_USERNAME/production-ready-data-science-code.git
+cd production-ready-data-science-code
+```
 
 ### Prerequisites
+
 - Python 3.10.11 or higher
 - [uv](https://docs.astral.sh/uv/) - Fast Python package manager
 
-### Installation Options
+### Install Dependencies
 
-#### Option 1: Quick Start (Recommended)
+**Option A: Install Everything (Recommended)**
 ```bash
-# Install everything at once
-curl -LsSf https://astral.sh/uv/install.sh | sh
-git clone https://github.com/khuyentran1401/production-ready-data-science-code.git
-cd production-ready-data-science-code
 uv sync --all-groups
 ```
 
-#### Option 2: Chapter-by-Chapter
+**Option B: Install Specific Chapters Only**
 ```bash
-# Install only what you need
 uv sync --group chapter7   # Testing examples
 uv sync --group chapter9   # Logging examples  
 uv sync --group chapter10  # Data validation
-# ... etc
 ```
-
-</details>
 
 ---
 

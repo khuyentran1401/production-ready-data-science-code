@@ -2,8 +2,6 @@
 
 Transform your data science projects with reproducible data management and ML pipelines using DVC.
 
-These examples are from [Production-Ready Data Science](https://codecut.ai/production-ready-data-science/?utm_source=github&utm_medium=production-ready-data-science-code&utm_campaign=chapter11) by Khuyen Tran.
-
 ← [Back to Main README](../README.md)
 
 ## Setup
