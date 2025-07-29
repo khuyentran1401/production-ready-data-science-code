@@ -1,6 +1,8 @@
 # Chapter 12: Continuous Integration
 
-GitHub Actions workflows for automating data science pipelines.
+## Problem
+
+Data science teams often rely on manual processes to validate code, run tests, and generate reports, leading to inconsistent results and human errors. Without automation, teams forget to run tests before merging, documentation becomes outdated, and data pipelines break silently when dependencies change.
 
 ← [Back to Main README](../README.md)
 
@@ -16,3 +18,9 @@ GitHub Actions workflows for automating data science pipelines.
 ```bash
 uv sync --group chapter12
 ```
+
+---
+
+## Why This Matters
+
+Automated CI/CD pipelines ensure consistent validation, catch errors early, and enable reliable deployment of data science workflows to production.

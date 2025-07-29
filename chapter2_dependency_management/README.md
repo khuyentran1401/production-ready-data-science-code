@@ -1,5 +1,9 @@
 # Chapter 2: Dependency Management
 
+## Problem
+
+Data science projects often break when shared between team members or deployed to production due to missing packages, version conflicts, or environment differences. "It works on my machine" becomes a constant frustration when pandas 1.5 works locally but production has 1.3, or when a colleague can't run your notebook because of missing dependencies.
+
 Practice the key dependency management concepts from the book with simple, runnable examples.
 
 ← [Back to Main README](../README.md)
@@ -31,3 +35,9 @@ pyenv local 3.10.11  # Use Python 3.10.11 for this project
 uv python install 3.10.11
 uv python pin 3.10.11
 ```
+
+---
+
+## Why This Matters
+
+Proper dependency management eliminates "works on my machine" problems, ensures reproducible results across environments, and prevents production failures caused by package version conflicts.

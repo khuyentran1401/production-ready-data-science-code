@@ -1,6 +1,8 @@
 # Chapter 8: Configuration Management
 
-Configuration management with Hydra for flexible parameter handling.
+## Problem
+
+Data science experiments often involve hardcoded parameters scattered throughout notebooks and scripts, making it difficult to track experiments, compare results, or adapt models for different environments. When hyperparameters, file paths, and settings are embedded in code, teams struggle to reproduce experiments and deploy models with different configurations.
 
 ← [Back to Main README](../README.md)
 
@@ -16,3 +18,9 @@ Configuration management with Hydra for flexible parameter handling.
 ```bash
 uv sync --group chapter8
 ```
+
+---
+
+## Why This Matters
+
+Centralized configuration management enables reproducible experiments, easy parameter sweeps, and seamless deployment across different environments without code changes.

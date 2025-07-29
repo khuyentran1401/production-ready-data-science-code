@@ -1,6 +1,8 @@
 # Chapter 7: Unit Testing
 
-Testing patterns for data science code that work in production.
+## Problem
+
+Data science code often goes to production without tests, leading to silent failures when models receive unexpected data or functions break after refactoring. Without proper testing, teams discover bugs in production, waste time debugging issues that could have been caught early, and lose confidence in their ML systems.
 
 ← [Back to Main README](../README.md)
 
@@ -18,3 +20,9 @@ Testing patterns for data science code that work in production.
 ```bash
 uv sync --group chapter7
 ```
+
+---
+
+## Why This Matters
+
+Testing catches data science bugs before production, enables confident refactoring, and builds reliable ML systems that teams can trust and maintain.

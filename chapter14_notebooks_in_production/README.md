@@ -1,6 +1,8 @@
 # Chapter 14: Notebooks in Production
 
-Production-ready notebooks using marimo for reproducible data science workflows.
+## Problem
+
+Traditional Jupyter notebooks suffer from hidden state, execution order dependencies, and variable redefinition issues that make them unreliable for production use. Teams struggle with notebooks that work for one person but fail for others, results that can't be reproduced, and analysis that breaks when cells are run out of order.
 
 ← [Back to Main README](../README.md)
 
@@ -17,3 +19,9 @@ Production-ready notebooks using marimo for reproducible data science workflows.
 ```bash
 uv sync --group chapter14
 ```
+
+---
+
+## Why This Matters
+
+Production-ready notebooks with automatic dependency tracking and deterministic execution enable reliable, reproducible data science workflows that teams can trust and deploy.
