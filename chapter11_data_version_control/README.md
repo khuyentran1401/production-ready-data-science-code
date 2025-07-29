@@ -19,15 +19,6 @@ This chapter demonstrates a complete customer churn prediction project using DVC
 - **Reproducible pipelines**: Automate ML workflows
 - **Experiment tracking**: Compare model performance across runs
 
-## Quick Start
-
-```bash
-# Initialize DVC and run complete pipeline
-cd chapter11_data_version_control
-uv run dvc init
-uv run dvc add data/raw/customer_churn.csv
-uv run dvc repro
-```
 
 ## Tutorial: Customer Churn Prediction with DVC
 
@@ -188,17 +179,8 @@ uv run dvc push
 4. **Experimentation**: Easy parameter testing and comparison
 5. **Storage**: Keep Git repository lightweight while tracking large datasets
 
-## Pipeline Overview
-
-The complete ML pipeline includes:
-
-- **prepare**: Clean raw customer data, handle missing values
-- **featurize**: Engineer features, scale data, select important features  
-- **train**: Train Random Forest model with configurable hyperparameters
-- **evaluate**: Generate accuracy, precision, recall, and F1 metrics
-
-Each stage only runs when its dependencies change, making experimentation fast and efficient.
-
 ---
 
-This example shows a complete DVC workflow that transforms how data science teams manage data, models, and experiments.
+## Why This Matters
+
+Data version control eliminates reproducibility nightmares, enables efficient data pipeline management, and ensures teams can collaborate confidently with large datasets while maintaining Git repository performance.

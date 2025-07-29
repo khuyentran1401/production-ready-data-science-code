@@ -54,43 +54,6 @@ pandas_processors/
 
 The source directory name (`pandas_processors/`) matches the package name, enabling direct imports like `import pandas_processors`.
 
-## Package Components
-
-### Data Creation (`create.py`)
-- `create_dataframe(data, index=None)` - Create DataFrames from dictionaries
-- `create_sample_data(rows=100, cols=3, missing_rate=0.0)` - Generate sample datasets for testing
-
-### Data Imputation (`impute.py`)  
-- `MeanMedianImputer(strategy="mean")` - Fill missing values with mean or median
-- `SimpleImputer(fill_value=0)` - Fill missing values with a constant
-
-### Data Normalization (`normalize.py`)
-- `StandardNormalizer()` - Z-score normalization (mean=0, std=1)  
-- `MinMaxNormalizer(feature_range=(0,1))` - Scale features to a specific range
-
-## Usage Examples
-
-
-```python
-# Import the utilities you need
-from pandas_processors.create import create_sample_data
-from pandas_processors.impute import MeanMedianImputer
-from pandas_processors.normalize import StandardNormalizer
-
-# Create sample data with missing values
-df = create_sample_data(rows=100, cols=4, missing_rate=0.1)
-print(f"Created DataFrame: {df.shape} with {df.isnull().sum().sum()} missing values")
-
-# Handle missing values
-imputer = MeanMedianImputer(strategy="mean")
-df_clean = imputer.fit_transform(df)
-print(f"After imputation: {df_clean.isnull().sum().sum()} missing values")
-
-# Normalize the data
-normalizer = StandardNormalizer() 
-df_normalized = normalizer.fit_transform(df_clean)
-print(f"Normalized data - Mean: {df_normalized.mean().round(3).tolist()}")
-```
 
 ## Complete Packaging Workflow
 
