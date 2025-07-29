@@ -1,6 +1,10 @@
 # Parametrization with pytest
 
+**Problem**: Data science functions need testing with multiple input combinations (different datasets, parameters, edge cases), but writing separate test functions for each scenario creates massive code duplication.
+
 Use `@pytest.mark.parametrize` to efficiently test multiple scenarios with the same test logic.
+
+**Why This Matters**: Parametrized tests enable comprehensive data science testing with minimal code duplication, making it easy to validate functions across diverse datasets and parameter combinations.
 
 ## Files
 

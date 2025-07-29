@@ -1,6 +1,10 @@
 # Basic Testing with pytest
 
+**Problem**: Data science functions often fail silently with incorrect logic, and debugging with print statements becomes overwhelming as codebases grow, missing edge cases that cause production failures.
+
 Write your first pytest tests and see why structured testing beats print statements for debugging.
+
+**Why This Matters**: Automated tests catch data science bugs early, provide clear failure diagnostics, and ensure functions work correctly across different datasets and edge cases.
 
 ## Files
 

@@ -1,6 +1,10 @@
 # Basic Hydra Configuration
 
+**Problem**: Data science experiments often hardcode parameters in scripts, making it difficult to track different parameter combinations, reproduce results, or run experiments with different settings.
+
 Manage application configuration with YAML files and command-line overrides.
+
+**Why This Matters**: Centralized configuration management enables reproducible experiments, easy parameter sweeps, and the ability to switch between development and production settings without code changes.
 
 ## Files
 

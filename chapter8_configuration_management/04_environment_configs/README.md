@@ -1,6 +1,10 @@
 # Environment-Specific Configuration Management
 
+**Problem**: Data science models use different configurations for development (small datasets, fast models) and production (full datasets, optimized models), requiring manual parameter changes that are error-prone and hard to track.
+
 This example demonstrates advanced configuration management techniques from Chapter 8, focusing on environment-specific configurations and secure handling of sensitive data.
+
+**Why This Matters**: Environment-specific configurations enable seamless deployment from development to production while maintaining appropriate settings for each stage of the ML lifecycle.
 
 ## Features Demonstrated
 

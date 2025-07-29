@@ -1,6 +1,10 @@
 # Main Blocks
 
+**Problem**: Data science modules often execute expensive computations (model training, data processing) during import, slowing down testing and making modules unusable as libraries.
+
 Use `if __name__ == "__main__":` to control when code executes in Python modules.
+
+**Why This Matters**: Main blocks allow data science scripts to be both executable programs and importable libraries, enabling code reuse without unwanted side effects.
 
 ## Files
 

@@ -1,6 +1,10 @@
 # Import Best Practices
 
+**Problem**: Data science projects often use wildcard imports (`from pandas import *`) that create mysterious bugs when function names collide, and disorganized imports make dependencies unclear.
+
 Essential import practices that make Python code more maintainable and avoid naming conflicts.
+
+**Why This Matters**: Clean import practices prevent hard-to-debug naming conflicts and make data science code dependencies explicit and maintainable.
 
 ## Files
 

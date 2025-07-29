@@ -1,6 +1,10 @@
 # Fixtures for Shared Test Data
 
+**Problem**: Data science tests often require expensive setup (loading datasets, training models, connecting to databases) that gets duplicated across multiple test functions, making tests slow and hard to maintain.
+
 Use pytest fixtures to share test data and setup code across multiple tests, eliminating duplication.
+
+**Why This Matters**: Fixtures eliminate duplicate setup code, speed up test execution, and ensure consistent test data across your data science test suite.
 
 ## Files
 

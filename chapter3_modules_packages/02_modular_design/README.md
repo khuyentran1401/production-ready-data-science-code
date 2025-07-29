@@ -1,6 +1,10 @@
 # Modular Design
 
+**Problem**: Data science scripts often grow into thousand-line files that mix data loading, preprocessing, modeling, and evaluation, making them impossible to debug, test, or reuse.
+
 Compare monolithic vs modular code approaches to see why breaking large files into focused modules improves maintainability.
+
+**Why This Matters**: Modular design makes data science code testable, debuggable, and enables teams to work on different pipeline components independently.
 
 ## Files
 

@@ -1,6 +1,10 @@
 # Basic Modules
 
+**Problem**: Data science notebooks often contain repeated utility functions across multiple projects, making code hard to maintain and share between team members.
+
 Create reusable code in separate `.py` files and import them into other modules.
+
+**Why This Matters**: Shared modules eliminate code duplication, enable team collaboration, and make data science utilities reusable across projects.
 
 ## Files
 

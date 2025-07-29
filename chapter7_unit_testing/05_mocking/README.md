@@ -1,6 +1,10 @@
 # Mocking External Dependencies
 
+**Problem**: Data science tests often depend on external services (APIs, databases, file systems) that are slow, unreliable, or unavailable during testing, making tests fragile and slow.
+
 Use mocking to test functions that depend on external services without actually connecting to them.
+
+**Why This Matters**: Mocking enables fast, reliable data science tests by simulating external dependencies, allowing you to test your logic without waiting for databases or API calls.
 
 ## Files
 

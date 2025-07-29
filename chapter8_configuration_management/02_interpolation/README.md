@@ -1,6 +1,10 @@
 # Hydra Interpolation
 
+**Problem**: Data science configurations often have redundant or dependent values (like file paths based on experiment names), leading to inconsistencies and manual updates across multiple parameters.
+
 Reference configuration values within other values to reduce duplication.
+
+**Why This Matters**: Configuration interpolation reduces redundancy, prevents inconsistencies, and automatically generates dependent values, making data science experiment configurations more maintainable.
 
 ## Files
 

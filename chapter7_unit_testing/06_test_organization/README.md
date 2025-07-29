@@ -1,6 +1,10 @@
 # Test Organization and Structure
 
+**Problem**: Data science projects often have scattered test files with unclear naming conventions, making it difficult to find relevant tests, run specific test suites, or maintain test coverage as projects grow.
+
 Organize tests in a scalable, maintainable structure with proper directory layout and shared fixtures.
+
+**Why This Matters**: Well-organized tests enable efficient development workflows, make it easy to run targeted test suites, and ensure comprehensive coverage of data science functionality.
 
 ## Files
 

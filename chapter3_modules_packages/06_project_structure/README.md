@@ -1,6 +1,10 @@
 # Project Structure
 
+**Problem**: Data science projects often lack standardized organization, making it difficult for team members to navigate code, find specific functionality, or package projects for deployment.
+
 Standardized data science project template following Python packaging best practices.
+
+**Why This Matters**: Consistent project structure accelerates team onboarding, makes code discoverable, and enables smooth transition from research to production deployment.
 
 ## Files
 

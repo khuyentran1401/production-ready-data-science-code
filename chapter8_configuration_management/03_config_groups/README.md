@@ -1,6 +1,10 @@
 # Hydra Config Groups
 
+**Problem**: Data science projects accumulate complex configurations (different models, datasets, preprocessing steps) that become difficult to organize and switch between in a single configuration file.
+
 Organize related configurations into swappable groups for easy strategy switching.
+
+**Why This Matters**: Config groups enable modular experiment design, allowing data scientists to easily mix and match components (models, datasets, preprocessing) without managing complex monolithic configuration files.
 
 ## Files
 

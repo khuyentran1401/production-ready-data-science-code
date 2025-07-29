@@ -1,6 +1,10 @@
 # Circular Imports
 
+**Problem**: Data science pipelines with interdependent modules (data loader needs preprocessor, preprocessor needs data loader) create circular import errors that prevent code execution.
+
 Demonstrates circular import problems and shows how to fix them using the coordinator pattern.
+
+**Why This Matters**: Avoiding circular imports keeps data science pipelines modular and prevents mysterious ImportError crashes that are hard to debug.
 
 ## Files
 
