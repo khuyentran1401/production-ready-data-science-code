@@ -15,11 +15,7 @@ uv sync --group chapter6
 
 ## Examples
 
-### [chapter6_classes.ipynb](chapter6_classes.ipynb) - Interactive examples
-```bash
-# Run the notebook
-uv run jupyter notebook chapter6_classes.ipynb
-```
+- [chapter6_classes.ipynb](chapter6_classes.ipynb) - Interactive examples
 
 ## Quick Start
 

@@ -15,10 +15,7 @@ uv sync --group chapter10
 
 ## Examples
 
-### [chapter10_data_validation.ipynb](chapter10_data_validation.ipynb) - Interactive data validation
-```bash
-uv run jupyter lab chapter10_data_validation.ipynb
-```
+- [chapter10_data_validation.ipynb](chapter10_data_validation.ipynb) - Interactive data validation
 
 ## Quick Start
 

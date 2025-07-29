@@ -15,11 +15,7 @@ uv sync --group chapter4
 
 ## Examples
 
-### [chapter4_variables.ipynb](chapter4_variables.ipynb) - Interactive examples
-```bash
-# Run the notebook
-uv run jupyter notebook chapter4_variables.ipynb
-```
+- [chapter4_variables.ipynb](chapter4_variables.ipynb) - Interactive examples
 
 ## Quick Start
 

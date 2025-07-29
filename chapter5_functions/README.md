@@ -15,11 +15,7 @@ uv sync --group chapter5
 
 ## Examples
 
-### [chapter5_functions.ipynb](chapter5_functions.ipynb) - Interactive examples
-```bash
-# Run the notebook
-uv run jupyter notebook chapter5_functions.ipynb
-```
+- [chapter5_functions.ipynb](chapter5_functions.ipynb) - Interactive examples
 
 ## Quick Start
 

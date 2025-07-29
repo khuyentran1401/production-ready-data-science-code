@@ -37,6 +37,8 @@ chapter12 = [
 chapter13 = [
     "hatchling>=1.18.0",
     "build>=1.0.0",
+    "pytest>=8.4.1",
+    "pytest-cov>=6.2.1",
 ]
 chapter4 = [
 ]
