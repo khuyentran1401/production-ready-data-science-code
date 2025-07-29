@@ -1,6 +1,8 @@
 # Chapter 4: Variables
 
-Manage variables with naming conventions, type hints, and memory efficiency.
+## Problem
+
+Data science code often suffers from cryptic variable names (`df2`, `model_v3`, `temp_result`), unclear data types, and memory inefficiency with large datasets. Poor variable management makes code unreadable, debugging difficult, and collaboration frustrating. Proper naming, typing, and memory management create maintainable, professional code.
 
 ← [Back to Main README](../README.md)
 
@@ -27,4 +29,6 @@ uv run jupyter notebook chapter4_variables.ipynb
 
 ---
 
-Each example is self-contained and ready to run.
+## Why This Matters
+
+Clear variable management reduces bugs, improves team collaboration, and makes data science code maintainable at scale.

@@ -1,12 +1,14 @@
 # uv Basics
 
-Follow the book's uv examples to experience modern dependency management.
+## Problem
+
+Traditional Python dependency management involves juggling multiple tools: pip for installation, virtualenv for environments, pip-tools for locking versions, and manual pyproject.toml editing. This creates complexity and inconsistency. uv consolidates these workflows into a single, fast tool written in Rust.
 
 ## Key Points
 
-- uv replaces pip, virtualenv, and Poetry in one tool
-- Creates `pyproject.toml` and `uv.lock` files automatically
-- Much faster than traditional tools
+- uv replaces pip, virtualenv, pip-tools, and Poetry in one tool (10-20x faster installs)
+- Creates `pyproject.toml` and `uv.lock` files automatically with proper version locking
+- Handles project initialization, dependency management, and environment reproduction seamlessly
 
 ## How to Run
 
@@ -54,3 +56,7 @@ uv sync --no-dev  # Install only production dependencies
 - Commands run much faster than equivalent pip operations
 
 Try timing `uv add pandas` vs `pip install pandas`!
+
+## Why This Matters
+
+Faster dependency resolution and unified tooling reduces project setup time from minutes to seconds, improving developer productivity.

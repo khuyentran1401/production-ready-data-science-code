@@ -1,6 +1,8 @@
 # Dev/Prod Separation
 
-Separate development and production dependencies as shown in the book.
+## Problem
+
+Mixing development tools (pytest, black, debugging utilities) with production dependencies creates bloated deployments. Production servers don't need testing frameworks or code formatters, but they waste bandwidth, storage, and introduce potential security vulnerabilities when included.
 
 ## Files
 
@@ -10,9 +12,9 @@ Separate development and production dependencies as shown in the book.
 
 ## Key Points
 
-- Production deployments don't need pytest, black, etc.
-- Development needs additional tools for testing and code quality
-- Use `-r requirements.txt` to include production deps in dev file
+- Production deployments don't need pytest, black, or debugging tools
+- Development environments need additional tools for testing and code quality
+- Use `-r requirements.txt` to include production deps in dev file, avoiding duplication
 
 ## How to Run
 
@@ -42,3 +44,7 @@ deactivate
 **Development**: Installs 6 packages + dependencies, can also run tests
 
 Development environment is larger but has testing tools!
+
+## Why This Matters
+
+Smaller production deployments reduce attack surface, deployment time, and infrastructure costs while keeping development workflows productive.

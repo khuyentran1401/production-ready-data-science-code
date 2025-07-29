@@ -1,6 +1,8 @@
 # Chapter 5: Functions
 
-Design clean, testable functions with proper parameters and error handling.
+## Problem
+
+Data scientists often write long, monolithic code blocks that do everything in one place—loading data, processing, modeling, and visualization mixed together. This creates untestable, unreusable code that's difficult to debug and maintain. Well-designed functions with clear inputs, outputs, and single responsibilities make code modular, testable, and professional.
 
 ← [Back to Main README](../README.md)
 
@@ -27,4 +29,6 @@ uv run jupyter notebook chapter5_functions.ipynb
 
 ---
 
-Each example is self-contained and ready to run.
+## Why This Matters
+
+Well-designed functions enable code reuse, simplify testing, and make data science workflows maintainable as projects grow in complexity.

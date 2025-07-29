@@ -1,6 +1,8 @@
 # Virtual Environments
 
-Experience the pandas 1.5.x vs 2.x dependency conflict from the book.
+## Problem
+
+Data scientists often work on multiple projects that require different package versions. Installing pandas 1.5.x globally for one project and pandas 2.x for another creates conflicts since Python can only load one version at a time. Virtual environments solve this by creating isolated environments for each project.
 
 ## Files
 
@@ -11,8 +13,9 @@ Experience the pandas 1.5.x vs 2.x dependency conflict from the book.
 
 ## Key Points
 
-- Different projects need different pandas versions
-- Virtual environments prevent conflicts
+- Different projects need different pandas versions (legacy uses 1.5.x, modern uses 2.x)
+- Virtual environments prevent conflicts by isolating dependencies per project
+- Without isolation, upgrading pandas breaks legacy code that uses deprecated methods
 
 ## How to Run
 
@@ -45,3 +48,7 @@ pip install -r requirements-legacy.txt  # Installs pandas 1.5.x
 pip install -r requirements-modern.txt  # Overwrites with pandas 2.x
 python legacy_project.py  # df.append() now removed, script fails
 ```
+
+## Why This Matters
+
+Virtual environments enable teams to maintain legacy systems while developing with modern tools, preventing costly rewrites.

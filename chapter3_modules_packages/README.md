@@ -1,6 +1,8 @@
 # Chapter 3: Modules and Packages
 
-Organize Python code into reusable, maintainable components.
+## Problem
+
+Data science projects often start as single Jupyter notebooks that grow into thousands of lines of unmaintainable code. Functions get duplicated across cells, imports become chaotic, and collaboration becomes impossible. Breaking code into modules and packages creates reusable components, improves organization, and enables team collaboration.
 
 ← [Back to Main README](../README.md)
 
@@ -52,4 +54,6 @@ uv run process_data.py
 
 ---
 
-Each example is self-contained and ready to run.
+## Why This Matters
+
+Modular code enables data science teams to share utilities, maintain large codebases, and build production-ready systems from notebook prototypes.

@@ -1,6 +1,8 @@
 # Version Ranges
 
-Compare exact version pinning vs version ranges from the book.
+## Problem
+
+Pinning exact versions like `pandas==1.5.3` prevents you from receiving bug fixes in `1.5.4`. However, allowing unrestricted updates risks breaking changes when major versions jump from `1.5.3` to `2.0.0`. Version ranges solve this by allowing safe updates while blocking potentially breaking changes.
 
 ## Files
 
@@ -10,8 +12,9 @@ Compare exact version pinning vs version ranges from the book.
 
 ## Key Points
 
-- Exact pinning prevents bug fixes (stuck on 1.5.3, miss 1.5.4)
-- Ranges allow safe updates while avoiding breaking changes
+- Exact pinning prevents bug fixes (stuck on 1.5.3, miss 1.5.4 security patches)
+- Ranges like `>=1.5.3,<1.6.0` automatically get patch/minor updates
+- Major version changes (1.x to 2.x) are blocked to prevent breaking changes
 
 ## How to Run
 
@@ -39,3 +42,7 @@ deactivate
 **Ranges**: Installs latest compatible version (pandas 1.5.3, matplotlib 3.6.3, scikit-learn 1.2.2)
 
 Version ranges get you bug fixes automatically!
+
+## Why This Matters
+
+Automatic security patches and bug fixes reduce maintenance overhead while preventing surprise breaking changes in production.

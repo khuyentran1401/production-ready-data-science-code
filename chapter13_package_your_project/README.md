@@ -1,6 +1,8 @@
 # Chapter 13: Package Your Project
 
-Complete Python packaging example using modern tooling with uv and hatchling.
+## Problem
+
+Data science code often stays trapped in individual notebooks or scripts, making it impossible for others to reuse valuable utilities and models. Without proper packaging, teams duplicate code, struggle with dependencies, and can't easily deploy models. Python packaging transforms reusable code into distributable libraries that teams can install and share.
 
 ← [Back to Main README](../README.md)
 
@@ -37,4 +39,6 @@ pytest -v
 
 ---
 
-Each example is self-contained and ready to run.
+## Why This Matters
+
+Packaging enables code reuse across projects, simplifies deployment, and allows data science teams to build on each other's work efficiently.

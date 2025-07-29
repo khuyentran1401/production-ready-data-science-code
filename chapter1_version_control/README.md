@@ -1,6 +1,8 @@
 # Chapter 1: Version Control Your Code - Examples
 
-Practical examples for Chapter 1 of the book. Read Chapter 1 for complete explanations of Git concepts and workflows.
+## Problem
+
+Data scientists often work on experiments that evolve rapidly—tweaking models, trying different datasets, collaborating with teammates. Without version control, it's easy to lose working code, accidentally break functionality, or struggle to reproduce results. Git provides the foundation for tracking changes, collaborating safely, and maintaining reproducible data science workflows.
 
 ← [Back to Main README](../README.md)
 
@@ -222,4 +224,6 @@ Output:
 git reset --soft HEAD~1
 ```
 
+## Why This Matters
 
+Version control transforms chaotic data science experiments into organized, reproducible workflows that enable collaboration and prevent costly mistakes.
